@@ -1,0 +1,16 @@
+gitpod
+muy cercana a la arquitectura limpia, IDE (Integrated DEvelopment Environment)
+
+Integrated: Editor
+Intellisense
+Compilation
+en tiempo real
+Construir el proyecto
+Run
+Debug
+Frameworks: Spring, Micronaut, Quertus
+
+JDK( Java Developments Kit
+core + tools
+sonarlint en eclipse
+window- preference -java-Installed JR

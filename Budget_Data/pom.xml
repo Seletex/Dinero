@@ -23,5 +23,10 @@
   		<artifactId>Budget_Domain</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
+  	<dependency>
+  			<groupId>edu.uco.budget</groupId>
+  			<artifactId>Budget_Crosscutting</artifactId>
+  			<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>

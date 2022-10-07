@@ -592,3 +592,41 @@
 2022-09-30 20:42:35,355 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Service\src\main\resources
 2022-09-30 20:42:35,358 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-09-30 20:42:35,360 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Service\src\test\resources
+2022-10-07 17:03:45,100 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-10-07 17:04:01,067 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:04:01,102 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Crosscutting\src\main\resources
+2022-10-07 17:04:01,114 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:04:01,118 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Crosscutting\src\test\resources
+2022-10-07 17:04:03,725 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Crosscutting: edu.uco.budget:Budget_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Budget_Crosscutting/target/classes
+2022-10-07 17:04:03,762 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:04:03,765 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Domain\src\main\resources
+2022-10-07 17:04:03,803 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:04:03,805 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Domain\src\test\resources
+2022-10-07 17:04:04,302 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Domain: edu.uco.budget:Budget_Domain:0.0.1-SNAPSHOT with classifier  to /Budget_Domain/target/classes
+2022-10-07 17:04:04,303 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Crosscutting: edu.uco.budget:Budget_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Budget_Crosscutting/target/classes
+2022-10-07 17:04:04,338 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:04:04,344 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Data\src\main\resources
+2022-10-07 17:04:04,354 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:04:04,356 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Data\src\test\resources
+2022-10-07 17:04:04,827 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Domain: edu.uco.budget:Budget_Domain:0.0.1-SNAPSHOT with classifier  to /Budget_Domain/target/classes
+2022-10-07 17:04:04,828 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Crosscutting: edu.uco.budget:Budget_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Budget_Crosscutting/target/classes
+2022-10-07 17:04:04,920 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:04:04,932 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Service\src\main\resources
+2022-10-07 17:04:04,938 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:04:04,944 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Service\src\test\resources
+2022-10-07 17:06:21,627 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:06:21,652 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Crosscutting\src\main\resources
+2022-10-07 17:06:21,656 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:06:21,658 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Crosscutting\src\test\resources
+2022-10-07 17:06:22,025 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:06:22,034 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Domain\src\main\resources
+2022-10-07 17:06:22,038 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:06:22,040 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Domain\src\test\resources
+2022-10-07 17:06:22,388 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:06:22,390 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Data\src\main\resources
+2022-10-07 17:06:22,396 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:06:22,400 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Data\src\test\resources
+2022-10-07 17:06:22,763 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:06:22,765 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Service\src\main\resources
+2022-10-07 17:06:22,774 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-07 17:06:22,777 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Service\src\test\resources

@@ -10,7 +10,8 @@ public final class ObjectHelper {
 		return value == null;
 	}
 	
-	public static final <T> T getDefault(T value, T defaultValue) {
+	public static final <T> T getDefaultIfNull(T value, T defaultValue) {
+		
 		return (isNull(value)) ? defaultValue : value;
 	}
 }

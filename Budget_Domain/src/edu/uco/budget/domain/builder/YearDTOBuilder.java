@@ -1,8 +1,8 @@
 package edu.uco.budget.domain.builder;
 
 import java.util.UUID;
-
 import edu.uco.budget.domain.YearDTO;
+import static edu.uco.budget.domain.YearDTO.create;
 
 public final class YearDTOBuilder {
 
@@ -28,7 +28,7 @@ public final class YearDTOBuilder {
 	}
 
 	public YearDTO build() {
-		return YearDTO.create(id, yearNumber);
+		return create(id, yearNumber);
 	}
 
 }

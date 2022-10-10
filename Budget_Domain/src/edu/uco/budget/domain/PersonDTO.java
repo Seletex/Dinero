@@ -37,7 +37,7 @@ public final class PersonDTO {
 		setSecondName(secondSurname);
 	}
 
-	public final static PersonDTO create(UUID id, String idCard, String firstName, String secondName, String firstSurname, String secondSurname) {
+	public static final PersonDTO create(final UUID id,final String idCard,final String firstName,final String secondName,final String firstSurname,final String secondSurname) {
 		return new PersonDTO(id, idCard, firstName, secondName, firstSurname, secondSurname);
 	}
 

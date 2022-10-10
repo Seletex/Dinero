@@ -16,10 +16,10 @@ public final class YearDTO {
 		setYearNumber(ZERO);
 	}
 
-	public YearDTO(final UUID id, final short yearNumber) {
+	public YearDTO(final UUID id, final int i) {
 
 		setId(id);
-		setYearNumber(yearNumber);
+		setYearNumber(i);
 	}
 
 	public final UUID getId() {
@@ -34,12 +34,12 @@ public final class YearDTO {
 		return yearNumber;
 	}
 
-	public final void setYearNumber(short yearNumber) {
-		this.yearNumber = isLessThan(yearNumber, ZERO) ? ZERO : yearNumber;
+	public final void setYearNumber(int i) {
+		this.yearNumber = (short) (isLessThan(i, ZERO) ? ZERO : i);
 	}
 
-	public final static YearDTO create(UUID id, short yearNumber) {
-		return new YearDTO(id, yearNumber);
+	public static final YearDTO create(UUID id, int i) {
+		return new YearDTO(id, i);
 	}
 
 }

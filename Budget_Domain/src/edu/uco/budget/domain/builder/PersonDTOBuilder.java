@@ -4,6 +4,8 @@ import java.util.UUID;
 
 import edu.uco.budget.domain.PersonDTO;
 
+import static edu.uco.budget.domain.PersonDTO.create;
+
 public final class PersonDTOBuilder {
 	
 	private UUID id;
@@ -48,7 +50,7 @@ public final class PersonDTOBuilder {
 	}
 	
 	public PersonDTO build() {
-		return PersonDTO.create(id, idCard, firstName, secondName, firstSurname, secondSurname);
+		return create(id, idCard, firstName, secondName, firstSurname, secondSurname);
 				
 	}
 	

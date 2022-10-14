@@ -26,7 +26,6 @@ public class BudgetSqlServerDAO implements BudgetDAO {
 
 	@Override
 	public final void delete(UUID id) {
-
-	}
+ }
 
 }

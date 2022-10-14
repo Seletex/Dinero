@@ -11,8 +11,8 @@ public final class BudgetDTOBuilder {
 
 	private UUID id;
 	private PersonDTO persona;
-	private YearDTO año;
-	private String descripcion;
+	private YearDTO year;
+	
 
 	public BudgetDTOBuilder() {
 		super();
@@ -26,17 +26,19 @@ public final class BudgetDTOBuilder {
 		this.persona = persona;
 	}
 
-	public final void setAño(final YearDTO año) {
-		this.año = año;
+	public final void setAno(final YearDTO year) {
+		this.year = year;
 	}
 
-	public final void setDescripcion(final String descripcion) {
-		this.descripcion = descripcion;
-	}
+	
 
 	public BudgetDTO build() {
-		return create(id, persona, año, descripcion);
+		return create(id, persona, year);
 
+	}
+	
+	public static final BudgetDTOBuilder getBudgetDTOBuilder() {
+		return new BudgetDTOBuilder();
 	}
 
 }

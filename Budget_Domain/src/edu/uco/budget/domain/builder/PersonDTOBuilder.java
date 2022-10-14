@@ -54,6 +54,10 @@ public final class PersonDTOBuilder {
 				
 	}
 	
+	public static final PersonDTOBuilder getPersonDTOBuilder() {
+		return new PersonDTOBuilder();
+	}
+	
 	
 
 }

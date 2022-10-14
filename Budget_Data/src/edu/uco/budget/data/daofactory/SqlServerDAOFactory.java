@@ -1,11 +1,14 @@
-package edu.uco.budget.data.daofactory.relational;
+package edu.uco.budget.data.daofactory;
 
 import edu.uco.budget.data.dao.BudgetDAO;
 import edu.uco.budget.data.dao.PersonDAO;
 import edu.uco.budget.data.dao.YearDAO;
-import edu.uco.budget.data.daofactory.DAOFactory;
 
 public final class SqlServerDAOFactory extends DAOFactory {
+	
+	SqlServerDAOFactory(){
+		openConexion();
+	}
 
 	@Override
 	protected void openConexion() {

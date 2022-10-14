@@ -6,6 +6,10 @@ import edu.uco.budget.data.dao.YearDAO;
 
 public abstract class DAOFactory {
 	
+	public static final DAOFactory getDAOFactory() {
+		return new SqlServerDAOFactory();
+	}
+	
 	protected abstract void openConexion();
 	
 	public abstract void initTransaction();

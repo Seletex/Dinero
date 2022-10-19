@@ -18,16 +18,19 @@ public final class BudgetDTOBuilder {
 		super();
 	}
 
-	public final void setId(final UUID id) {
+	public final BudgetDTOBuilder setId(final UUID id) {
 		this.id = id;
+		return this;
 	}
 
-	public final void setPersona(final PersonDTO persona) {
+	public final BudgetDTOBuilder setPersona(final PersonDTO persona) {
 		this.persona = persona;
+		return this;
 	}
 
-	public final void setAno(final YearDTO year) {
+	public final BudgetDTOBuilder setAno(final YearDTO year) {
 		this.year = year;
+		return this;
 	}
 
 	

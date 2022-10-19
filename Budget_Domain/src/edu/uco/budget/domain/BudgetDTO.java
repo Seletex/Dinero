@@ -4,8 +4,6 @@ import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getNewUUID;
 import static edu.uco.budget.crosscutting.helper.StringHelper.EMPTY;
 
-
-
 import java.util.UUID;
 
 public final class BudgetDTO {

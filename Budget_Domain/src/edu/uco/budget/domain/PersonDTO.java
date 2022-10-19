@@ -1,9 +1,9 @@
 package edu.uco.budget.domain;
 
-import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
-import static edu.uco.budget.crosscutting.helper.UUIDHelper.getNewUUID;
 import static edu.uco.budget.crosscutting.helper.StringHelper.EMPTY;
 import static edu.uco.budget.crosscutting.helper.StringHelper.applyTrim;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getNewUUID;
 
 import java.util.UUID;
 

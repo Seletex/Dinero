@@ -1,0 +1,1 @@
+package edu.uco.inventory.service.usecase.pais.implementation;

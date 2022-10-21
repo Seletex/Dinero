@@ -1,5 +1,11 @@
 package edu.uco.budget.data.daofactory;
 
+import static edu.uco.budget.crosscutting.helper.ExceptionHelper.ItinialTransaction;
+import static edu.uco.budget.crosscutting.helper.SqlConnectionHelper.connectionIsOpen;
+import static edu.uco.budget.crosscutting.helper.ExceptionHelper.ConfimTransaction;
+
+import java.sql.Connection;
+
 import edu.uco.budget.crosscutting.messages.Messages;
 import edu.uco.budget.data.dao.BudgetDAO;
 import edu.uco.budget.data.dao.PersonDAO;
@@ -38,11 +44,19 @@ public abstract class DAOFactory {
 		return daoFactory;
 	}
 
-	protected abstract void openConexion();
+	protected void openConexion(final Connection connection) {
+		connectionIsOpen(connection);
+	}
 
-	public abstract void initTransaction();
+	public void initTransaction(final Connection connection) throws Throwable {
+		ItinialTransaction(connection);
+	}
 
-	public abstract void confirmTransaction();
+	public  void confirmTransaction(final Connection connection) throws Throwable {
+		ConfimTransaction(connection);
+	};
+	
+	
 
 	public abstract void cancelTransaction();
 

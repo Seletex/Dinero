@@ -11,12 +11,10 @@
     <fullyQualifiedTypeName name="edu.uco.budget.data.dao.PersonDAO"/>
     <fullyQualifiedTypeName name="edu.uco.budget.data.dao.YearDAO"/>
     <fullyQualifiedTypeName name="edu.uco.budget.data.daofactory.relational.SqlServerDAOFactory"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.SqlConnectionHelper"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.DAOFactory"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.SqlConnectionHelper"/>
     <fullyQualifiedTypeName name="edu.uco.budget.data.dao.relational.DAORelational"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="edu.uco.budget.data.dao.relational.sqlserver.BudgetSqlServerDAO"/>
     <fullyQualifiedTypeName name="edu.uco.budget.data.dao.relational.sqlserver.PersonSqlServerDAO"/>
     <fullyQualifiedTypeName name="edu.uco.budget.data.dao.relational.sqlserver.YearSqlServerDAO"/>
@@ -32,4 +30,13 @@
     <fullyQualifiedTypeName name="edu.uco.calculadora.transversal.NumeroNegativoException"/>
     <fullyQualifiedTypeName name="edu.uco.inventory.domain.DepartamentoDTO"/>
     <fullyQualifiedTypeName name="edu.uco.inventory.domain.CiudadDTO"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.SqlConnectionHelper"/>
+    <fullyQualifiedTypeName name="java.rmi.AccessException"/>
+    <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
+    <fullyQualifiedTypeName name="java.sql.SQLInvalidAuthorizationSpecException"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.SQLNonTransientConnectionException"/>
+    <fullyQualifiedTypeName name="java.sql.SQLNonTransientException"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.ExceptionHelper"/>
+    <fullyQualifiedTypeName name="java.sql.SQLTransientConnectionException"/>
 </qualifiedTypeNameHistroy>

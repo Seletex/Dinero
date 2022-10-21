@@ -1,10 +1,11 @@
 package edu.uco.budget.data.daofactory;
 
+import static edu.uco.budget.crosscutting.helper.ExceptionHelper.ConfimTransaction;
 import static edu.uco.budget.crosscutting.helper.ExceptionHelper.ItinialTransaction;
 import static edu.uco.budget.crosscutting.helper.SqlConnectionHelper.connectionIsOpen;
-import static edu.uco.budget.crosscutting.helper.ExceptionHelper.ConfimTransaction;
 
 import java.sql.Connection;
+import java.sql.SQLException;
 
 import edu.uco.budget.crosscutting.messages.Messages;
 import edu.uco.budget.data.dao.BudgetDAO;
@@ -52,13 +53,17 @@ public abstract class DAOFactory {
 		ItinialTransaction(connection);
 	}
 
-	public  void confirmTransaction(final Connection connection) throws Throwable {
+	public void confirmTransaction(final Connection connection) throws Throwable {
 		ConfimTransaction(connection);
 	};
-	
-	
 
-	public abstract void cancelTransaction();
+	public boolean cancelTransaction(final Connection connection) {
+		try {
+			return !connectionIsOpen(connection)&& !connection.isClosed();
+		} catch (SQLException exception) {
+			throw new RuntimeException(exception.getMessage());
+		}
+	}
 
 	public abstract void closeConnection();
 
@@ -67,5 +72,27 @@ public abstract class DAOFactory {
 	public abstract PersonDAO getPersonDAO();
 
 	public abstract YearDAO getYearDAO();
+
+	public void cancelTransaction() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
+	public void initTransaction() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void confirmTransaction() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	protected void openConexion() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

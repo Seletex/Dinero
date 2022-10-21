@@ -1,5 +1,7 @@
 package edu.uco.budget.data.daofactory;
 
+import static edu.uco.budget.crosscutting.helper.ExceptionHelper.ItinialTransaction;
+
 import java.sql.Connection;
 
 import edu.uco.budget.data.dao.BudgetDAO;
@@ -16,10 +18,14 @@ public final class SqlServerDAOFactory extends DAOFactory {
 	SqlServerDAOFactory() {
 		openConexion();
 	}
-
 	@Override
 	protected void openConexion() {
-
+		try {
+			ItinialTransaction(connection);
+		} catch (Throwable e) {
+			
+			e.printStackTrace();
+		}
 	}
 
 	@Override

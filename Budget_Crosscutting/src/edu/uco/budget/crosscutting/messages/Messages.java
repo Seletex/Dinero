@@ -76,14 +76,14 @@ public class Messages {
 			super();
 		}
 
-		public static final String TECHNICAL_PROBLEM_CREATE_BUDGET = "There was a Problem trying to create desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_UNEXPECTED_PROBLEM_CREATE_BUDGET = "There was a Problem trying to create desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_PROBLEM_UPDATE_BUDGET = "There was a Problem trying to update desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_UNEXPECTED_PROBLEM_UPDATE_BUDGET = "There was a Problem trying to update desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_PROBLEM_DELETE_BUDGET = "There was a Problem trying to delete desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_UNEXPECTED_PROBLEM_DELETE_BUDGET = "There was a Problem trying to delete desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_PROBLEM_FIND_BUDGET = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FIND_BUDGET = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_PROBLEM_CREATE_YEAR = "There was a Problem trying to create desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_CREATE_YEAR = "There was a Problem trying to create desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_PROBLEM_UPDATE_YEAR = "There was a Problem trying to update desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_UPDATE_YEAR = "There was a Problem trying to update desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_PROBLEM_DELETE_YEAR= "There was a Problem trying to delete desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_DELETE_YEAR = "There was a Problem trying to delete desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_PROBLEM_FIND_YEAR = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FIND_YEAR = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
 	}
 	
 	public static class PersonSqlServerDAO {
@@ -91,14 +91,14 @@ public class Messages {
 			super();
 		}
 
-		public static final String TECHNICAL_PROBLEM_CREATE_BUDGET = "There was a Problem trying to create desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_UNEXPECTED_PROBLEM_CREATE_BUDGET = "There was a Problem trying to create desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_PROBLEM_UPDATE_BUDGET = "There was a Problem trying to update desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_UNEXPECTED_PROBLEM_UPDATE_BUDGET = "There was a Problem trying to update desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_PROBLEM_DELETE_BUDGET = "There was a Problem trying to delete desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_UNEXPECTED_PROBLEM_DELETE_BUDGET = "There was a Problem trying to delete desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_PROBLEM_FIND_BUDGET = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FIND_BUDGET = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_PROBLEM_CREATE_PERSON = "There was a Problem trying to create desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_CREATE_PERSON = "There was a Problem trying to create desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_PROBLEM_UPDATE_PERSON = "There was a Problem trying to update desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_UPDATE_PERSON = "There was a Problem trying to update desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_PROBLEM_DELETE_PERSON = "There was a Problem trying to delete desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_DELETE_PERSON = "There was a Problem trying to delete desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_PROBLEM_FIND_PERSON = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FIND_PERSON = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
 	}
 
 }

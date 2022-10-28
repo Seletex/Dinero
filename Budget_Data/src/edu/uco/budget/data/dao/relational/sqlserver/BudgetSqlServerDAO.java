@@ -94,7 +94,10 @@ public class BudgetSqlServerDAO extends DAORelational implements BudgetDAO {
 				preparedStatement.setObject(index + 1, paramenters.get(index));
 			}
 			try (final var resultSet = preparedStatement.executeQuery()) {
-				// fill the list with the results
+				
+				
+				resultSet.getNString(0);
+				
 			}
 		} catch (SQLException exception) {
 			final var message = Messages.BudgetSqlServerDAO.TECHNICAL_PROBLEM_FIND_BUDGET

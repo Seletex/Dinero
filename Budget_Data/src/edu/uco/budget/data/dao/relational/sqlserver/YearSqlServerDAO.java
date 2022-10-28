@@ -34,12 +34,12 @@ public class YearSqlServerDAO extends DAORelational implements YearDAO {
 
 			preparedStatement.executeUpdate();
 		} catch (final SQLException exception) {
-			final var message = Messages.YearSqlServerDAO.TECHNICAL_PROBLEM_CREATE_BUDGET
+			final var message = Messages.YearSqlServerDAO.TECHNICAL_PROBLEM_CREATE_YEAR
 					.concat(year.getIdAsString());
 			throw DataCustomException.createTechnicalException(message, exception);
 		} catch (final Exception exception) {
 
-			String message = Messages.YearSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_CREATE_BUDGET
+			String message = Messages.YearSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_CREATE_YEAR
 					.concat(year.getIdAsString());
 			DataCustomException.createTechnicalException(message, exception);
 		}
@@ -54,7 +54,7 @@ public class YearSqlServerDAO extends DAORelational implements YearDAO {
 		final StringBuilder sqlBuilder = new StringBuilder();
 
 		sqlBuilder.append("SELECT         Id As IdYear, ");
-		sqlBuilder.append("              IdYearNumber As Year, ");
+		sqlBuilder.append("              IdYearNumber As Year");
 
 		sqlBuilder.append(" FROM Year  ");
 
@@ -78,10 +78,10 @@ public class YearSqlServerDAO extends DAORelational implements YearDAO {
 				// fill the list with the results
 			}
 		} catch (SQLException exception) {
-			final var message = Messages.YearSqlServerDAO.TECHNICAL_PROBLEM_FIND_BUDGET.concat(year.getIdAsString());
+			final var message = Messages.YearSqlServerDAO.TECHNICAL_PROBLEM_FIND_YEAR.concat(year.getIdAsString());
 			throw DataCustomException.createTechnicalException(message, exception);
 		} catch (Exception exception) {
-			final var message = Messages.YearSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FIND_BUDGET
+			final var message = Messages.YearSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FIND_YEAR
 					.concat(year.getIdAsString());
 			throw DataCustomException.createTechnicalException(message, exception);
 		}
@@ -100,11 +100,11 @@ public class YearSqlServerDAO extends DAORelational implements YearDAO {
 
 			preparedStatement.executeUpdate();
 		} catch (final SQLException exception) {
-			final var message = Messages.YearSqlServerDAO.TECHNICAL_PROBLEM_UPDATE_BUDGET
+			final var message = Messages.YearSqlServerDAO.TECHNICAL_PROBLEM_UPDATE_YEAR
 					.concat(year.getIdAsString());
 			throw DataCustomException.createTechnicalException(message, exception);
 		} catch (final Exception exception) {
-			final var message = Messages.YearSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_UPDATE_BUDGET
+			final var message = Messages.YearSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_UPDATE_YEAR
 					.concat(year.getIdAsString());
 			throw DataCustomException.createTechnicalException(message, exception);
 		}
@@ -122,11 +122,11 @@ public class YearSqlServerDAO extends DAORelational implements YearDAO {
 
 			preparedStatement.executeUpdate();
 		} catch (final SQLException exception) {
-			final var message = Messages.YearSqlServerDAO.TECHNICAL_PROBLEM_DELETE_BUDGET;
+			final var message = Messages.YearSqlServerDAO.TECHNICAL_PROBLEM_DELETE_YEAR;
 			throw DataCustomException.createTechnicalException(message, exception);
 		} catch (final Exception exception) {
 
-			final var message = Messages.YearSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_DELETE_BUDGET;
+			final var message = Messages.YearSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_DELETE_YEAR;
 			throw DataCustomException.createTechnicalException(message , exception);
 		}
 	}

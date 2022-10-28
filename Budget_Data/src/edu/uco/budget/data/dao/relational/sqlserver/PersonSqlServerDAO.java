@@ -16,7 +16,6 @@ import edu.uco.budget.data.dao.PersonDAO;
 import edu.uco.budget.data.dao.relational.DAORelational;
 import edu.uco.budget.domain.PersonDTO;
 
-
 public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 
 	public PersonSqlServerDAO(final Connection connection) {
@@ -36,16 +35,16 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 			preparedStatement.setString(4, person.getSecondName());
 			preparedStatement.setString(5, person.getFirstSurname());
 			preparedStatement.setString(6, person.getSecondSurname());
-			
 
 			preparedStatement.executeUpdate();
 		} catch (final SQLException exception) {
-			String message = Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_CREATE_BUDGET
-					.concat(person.getIdAsString());
+			String message = Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_CREATE_PERSON.concat(person.getIdAsString());
 			throw DataCustomException.createTechnicalException(message, exception);
 		} catch (final Exception exception) {
+			String message = Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_CREATE_PERSON
+					.concat(person.getIdAsString());
+			DataCustomException.createTechnicalException(message, exception);
 
-			Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_CREATE_BUDGET.toString();
 		}
 	}
 
@@ -57,7 +56,11 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 		final StringBuilder sqlBuilder = new StringBuilder();
 
 		sqlBuilder.append("SELECT         Id As IdYear, ");
-		sqlBuilder.append("              IdYearNumber As Year, ");
+		sqlBuilder.append("              IdCard As Card, ");
+		sqlBuilder.append("              firstName As FirstName, ");
+		sqlBuilder.append("              secondName As SecondName, ");
+		sqlBuilder.append("              firstSurname As FirstSurname,firstName,   secondName, firstSurname,   secondSurname ");
+		sqlBuilder.append("              secondSurname As SecondSurname, ");
 
 		sqlBuilder.append(" FROM Year  ");
 
@@ -70,8 +73,8 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 
 		}
 
-		sqlBuilder.append("ORDER BY Pe.idCard ASC, ");
-		sqlBuilder.append("              Ye.year ASC.");
+		sqlBuilder.append("ORDER BY firstSurname ASC ");
+		
 
 		try (final var preparedStatement = getConnection().prepareStatement(sqlBuilder.toString())) {
 			for (int index = 0; index < paramenters.size(); index++) {
@@ -81,10 +84,11 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 				// fill the list with the results
 			}
 		} catch (SQLException exception) {
-			final var message = Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_FIND_BUDGET.concat(person.getIdAsString());
+			final var message = Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_FIND_PERSON
+					.concat(person.getIdAsString());
 			throw DataCustomException.createTechnicalException(message, exception);
 		} catch (Exception exception) {
-			final var message = Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FIND_BUDGET
+			final var message = Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FIND_PERSON
 					.concat(person.getIdAsString());
 			throw DataCustomException.createTechnicalException(message, exception);
 		}
@@ -107,11 +111,11 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 
 			preparedStatement.executeUpdate();
 		} catch (final SQLException exception) {
-			final var message = Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_UPDATE_BUDGET
+			final var message = Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_UPDATE_PERSON
 					.concat(person.getIdAsString());
 			throw DataCustomException.createTechnicalException(message, exception);
 		} catch (final Exception exception) {
-			final var message = Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_UPDATE_BUDGET
+			final var message = Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_UPDATE_PERSON
 					.concat(person.getIdAsString());
 			throw DataCustomException.createTechnicalException(message, exception);
 		}
@@ -128,12 +132,12 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 
 			preparedStatement.executeUpdate();
 		} catch (final SQLException exception) {
-			final var message = Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_DELETE_BUDGET;
+			final var message = Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_DELETE_PERSON;
 			throw DataCustomException.createTechnicalException(message, exception);
 		} catch (final Exception exception) {
 
-			final var message = Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_DELETE_BUDGET;
-			throw DataCustomException.createTechnicalException(message , exception);
+			final var message = Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_DELETE_PERSON;
+			throw DataCustomException.createTechnicalException(message, exception);
 		}
 	}
 

@@ -1,6 +1,8 @@
 package edu.uco.budget.crosscutting.helper;
 
 import static edu.uco.budget.crosscutting.helper.ObjectHelper.getDefaultIfNull;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
+import java.util.UUID;
 
 public final class StringHelper {
 
@@ -22,5 +24,12 @@ public final class StringHelper {
 		return getDefaultString(value).trim();
 	}
 	
+	public static final String getUUIDAsString(final UUID value) {
+		return getDefaultUUID(value).toString();
+	}
+	
+	public static final boolean isEmpty(String value) {
+		return true;
+	}
 
 }

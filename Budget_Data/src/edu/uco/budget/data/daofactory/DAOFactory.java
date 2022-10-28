@@ -1,23 +1,24 @@
 package edu.uco.budget.data.daofactory;
 
-import static edu.uco.budget.crosscutting.helper.ExceptionHelper.ConfimTransaction;
-import static edu.uco.budget.crosscutting.helper.ExceptionHelper.ItinialTransaction;
-import static edu.uco.budget.crosscutting.helper.SqlConnectionHelper.connectionIsOpen;
-
 import java.sql.Connection;
-import java.sql.SQLException;
 
+import edu.uco.budget.crosscutting.helper.SqlConnectionHelper;
 import edu.uco.budget.crosscutting.messages.Messages;
 import edu.uco.budget.data.dao.BudgetDAO;
 import edu.uco.budget.data.dao.PersonDAO;
 import edu.uco.budget.data.dao.YearDAO;
+import edu.uco.budget.data.dao.relational.sqlserver.BudgetSqlServerDAO;
+import edu.uco.budget.data.dao.relational.sqlserver.PersonSqlServerDAO;
+import edu.uco.budget.data.dao.relational.sqlserver.YearSqlServerDAO;
 import edu.uco.budget.data.enumeration.DAOFactoryType;
 
 public abstract class DAOFactory {
+	Connection connection = null;
 
 	public static final DAOFactory getDAOFactory(final DAOFactoryType factory) {
 
 		DAOFactory daoFactory = null;
+		Connection connection = null;
 
 		switch (factory) {
 		case SQL_SERVER:
@@ -45,54 +46,34 @@ public abstract class DAOFactory {
 		return daoFactory;
 	}
 
-	protected void openConexion(final Connection connection) {
-		connectionIsOpen(connection);
+	protected void openConexion() {
+		 connection = null;
 	}
 
-	public void initTransaction(final Connection connection) throws Throwable {
-		ItinialTransaction(connection);
-	}
-
-	public void confirmTransaction(final Connection connection) throws Throwable {
-		ConfimTransaction(connection);
-	};
-
-	public boolean cancelTransaction(final Connection connection) {
-		try {
-			return !connectionIsOpen(connection)&& !connection.isClosed();
-		} catch (SQLException exception) {
-			throw new RuntimeException(exception.getMessage());
-		}
-	}
-
-	public abstract void closeConnection();
-
-	public abstract BudgetDAO getBudgetDAO();
-
-	public abstract PersonDAO getPersonDAO();
-
-	public abstract YearDAO getYearDAO();
-
-	public void cancelTransaction() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	
-
-	public void initTransaction() {
-		// TODO Auto-generated method stub
-		
-	}
+	public abstract void initTransaction() throws Throwable;
 
 	public void confirmTransaction() {
-		// TODO Auto-generated method stub
-		
+		SqlConnectionHelper.closeConnection(connection);
 	}
 
-	protected void openConexion() {
-		// TODO Auto-generated method stub
-		
+	public void cancelTransaction() {
+
+	}
+
+	public void closeConnection() {
+
+	}
+
+	public BudgetDAO getBudgetDAO() {
+		return new BudgetSqlServerDAO(connection);
+	}
+
+	public PersonDAO getPersonDAO() {
+		return new PersonSqlServerDAO(connection);
+	}
+
+	public YearDAO getYearDAO() {
+		return new YearSqlServerDAO(connection);
 	}
 
 }

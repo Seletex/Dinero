@@ -4,6 +4,7 @@ import java.util.UUID;
 import static edu.uco.budget.crosscutting.helper.NumberHelper.isLessThan;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getNewUUID;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDAsString;
 import static edu.uco.budget.crosscutting.helper.NumberHelper.ZERO;
 
 public final class YearDTO {
@@ -39,7 +40,11 @@ public final class YearDTO {
 	}
 
 	public static final YearDTO create(UUID id, int i) {
-		return new YearDTO(id, i);
+		return new YearDTO(UUID.randomUUID(), i);
+	}
+	
+	public final String getIdAsString() {
+		return getUUIDAsString(getId());
 	}
 
 }

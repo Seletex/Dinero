@@ -14,5 +14,7 @@ public interface BudgetDAO {
 	void update(BudgetDTO budget);
 
 	void delete(UUID id);
+	
+	
 
 }

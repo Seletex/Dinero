@@ -1,10 +1,15 @@
 package edu.uco.budget.domain;
 
+import static edu.uco.budget.crosscutting.helper.ObjectHelper.getDefaultIfNull;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getNewUUID;
-import static edu.uco.budget.crosscutting.helper.StringHelper.EMPTY;
+import static edu.uco.budget.domain.builder.PersonDTOBuilder.getPersonDTOBuilder;
+import static edu.uco.budget.domain.builder.YearDTOBuilder.getYearDTOBuilder;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDAsString;
 
 import java.util.UUID;
+
+
 
 public final class BudgetDTO {
 
@@ -24,8 +29,8 @@ public final class BudgetDTO {
 	public BudgetDTO() {
 		setId(getNewUUID());
 		
-		setPersona(PersonDTO.create(getId(), EMPTY, EMPTY, EMPTY, EMPTY, EMPTY));
-		setYear(YearDTO.create(getNewUUID(), 0));
+		setPersona(getPersonDTOBuilder().build());
+		setYear(getYearDTOBuilder().build());
 	}
 
 	public final UUID getId() {
@@ -41,7 +46,7 @@ public final class BudgetDTO {
 	}
 
 	public final void setPersona(final PersonDTO persona) {
-		this.persona = persona;
+		this.persona = getDefaultIfNull(persona, getPersonDTOBuilder().build());
 	}
 
 	public final YearDTO getYear() {
@@ -49,13 +54,18 @@ public final class BudgetDTO {
 	}
 
 	public final void setYear(final YearDTO year) {
-		this.year = (year);
+		this.year = getDefaultIfNull(year, getYearDTOBuilder().build());
 	}
 
 
 
 	public static final BudgetDTO create(final UUID id, final PersonDTO persona, final YearDTO year) {
-		return new BudgetDTO(id, persona, year);
+		
+		return new BudgetDTO(UUID.randomUUID(), persona, year);
+	}
+	
+	public final String getIdAsString() {
+		return getUUIDAsString(getId());
 	}
 
 }                                                                                                                                      //a partir de 6:30 empieza el compartido de este preyecto y los comprate Steven

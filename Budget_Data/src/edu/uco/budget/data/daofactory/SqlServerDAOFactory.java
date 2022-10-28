@@ -1,9 +1,15 @@
 package edu.uco.budget.data.daofactory;
 
-import static edu.uco.budget.crosscutting.helper.ExceptionHelper.ItinialTransaction;
 
-import java.sql.Connection;
 
+import static edu.uco.budget.crosscutting.helper.SqlConnectionHelper.connectionIsOpen;
+
+
+
+import edu.uco.budget.crosscutting.exception.data.CrosscuttingCustomException;
+import edu.uco.budget.crosscutting.exception.data.DataCustomException;
+import edu.uco.budget.crosscutting.helper.SqlConnectionHelper;
+import edu.uco.budget.crosscutting.messages.Messages;
 import edu.uco.budget.data.dao.BudgetDAO;
 import edu.uco.budget.data.dao.PersonDAO;
 import edu.uco.budget.data.dao.YearDAO;
@@ -13,34 +19,34 @@ import edu.uco.budget.data.dao.relational.sqlserver.YearSqlServerDAO;
 
 public final class SqlServerDAOFactory extends DAOFactory {
 
-	private Connection connection;
+	
 
 	SqlServerDAOFactory() {
 		openConexion();
 	}
 	@Override
 	protected void openConexion() {
-		try {
-			ItinialTransaction(connection);
-		} catch (Throwable e) {
-			
-			e.printStackTrace();
-		}
+		connectionIsOpen(connection);
 	}
-
 	@Override
-	public void initTransaction() {
-
+	public void initTransaction() throws Throwable {
+		
+		try {
+		SqlConnectionHelper.initTransaction(connection);
+		}catch(CrosscuttingCustomException exception) {
+			throw DataCustomException.createTechnicalException(Messages.SQLServerDAOFactory.TECHNICAL_PROBLEM_INIT_TRANSACTION, exception);
+		}
+		
 	}
 
 	@Override
 	public void confirmTransaction() {
-
 	}
+		
 
 	@Override
 	public void cancelTransaction() {
-
+		return;
 	}
 
 	@Override

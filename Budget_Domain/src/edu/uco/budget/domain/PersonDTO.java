@@ -4,6 +4,7 @@ import static edu.uco.budget.crosscutting.helper.StringHelper.EMPTY;
 import static edu.uco.budget.crosscutting.helper.StringHelper.applyTrim;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getNewUUID;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDAsString;
 
 import java.util.UUID;
 
@@ -38,7 +39,7 @@ public final class PersonDTO {
 	}
 
 	public static final PersonDTO create(final UUID id,final String idCard,final String firstName,final String secondName,final String firstSurname,final String secondSurname) {
-		return new PersonDTO(id, idCard, firstName, secondName, firstSurname, secondSurname);
+		return new PersonDTO(UUID.randomUUID(), idCard, firstName, secondName, firstSurname, secondSurname);
 	}
 
 	public final UUID getId() {
@@ -89,4 +90,7 @@ public final class PersonDTO {
 		this.secondSurname = applyTrim(secondSurname);
 	}
 
+	public final String getIdAsString() {
+		return getUUIDAsString(getId());
+	}
 }

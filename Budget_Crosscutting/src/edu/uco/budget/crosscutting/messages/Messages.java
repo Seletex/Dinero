@@ -36,6 +36,13 @@ public class Messages {
 		public static final String TECHNICAL_CONNECTION_IS_CLOSED_FOR_ROLLBACK_TRANSACTION = "Connection already is closed";
 		}
 
+	public static class UUIDHelper{
+		private UUIDHelper() {
+			super();
+		}
+		public static final String TECHNICAL_UUID_FROM_STRING_INVALID = "The UUID to convert doesnot have a valid format";
+		public static final String TECHNICAL_UUID_FROM_STRING_UNEXPECTED_ERROR = "There was an unexpected excption trying to convert a UUID from String";
+	}
 	public static class SQLServerDAOFactory {
 		private SQLServerDAOFactory() {
 			super();
@@ -68,7 +75,17 @@ public class Messages {
 		public static final String TECHNICAL_PROBLEM_DELETE_BUDGET = "There was a Problem trying to delete desired budget in SQLServerDAOFactory";
 		public static final String TECHNICAL_UNEXPECTED_PROBLEM_DELETE_BUDGET = "There was a Problem trying to delete desired budget in SQLServerDAOFactory";
 		public static final String TECHNICAL_PROBLEM_FIND_BUDGET = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
-		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FIND_BUDGET = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FIND_BUDGET = "There was a Problem recovering from the select";
+		public static final String TECHNICAL_PROBLEM_FILL_RESULTS = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_RESULTS = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_PROBLEM_FILL_BUDGETDTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_BUDGETDTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_PROBLEM_FILL_YEARDTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_YEARDTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_PROBLEM_FILL_PERSONDTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_PERSONDTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String PROBLEM_PREPARED_STATEMENT = "There was an unexpected problem";
+
 	}
 	
 	public static class YearSqlServerDAO {

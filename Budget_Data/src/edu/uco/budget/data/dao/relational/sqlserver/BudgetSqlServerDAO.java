@@ -3,6 +3,8 @@ package edu.uco.budget.data.dao.relational.sqlserver;
 import static edu.uco.budget.crosscutting.helper.StringHelper.getUUIDAsString;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +17,8 @@ import edu.uco.budget.crosscutting.messages.Messages;
 import edu.uco.budget.data.dao.BudgetDAO;
 import edu.uco.budget.data.dao.relational.DAORelational;
 import edu.uco.budget.domain.BudgetDTO;
+import edu.uco.budget.domain.PersonDTO;
+import edu.uco.budget.domain.YearDTO;
 
 public class BudgetSqlServerDAO extends DAORelational implements BudgetDAO {
 
@@ -47,7 +51,7 @@ public class BudgetSqlServerDAO extends DAORelational implements BudgetDAO {
 
 	@Override
 	public final List<BudgetDTO> find(BudgetDTO budget) {
-		var results = new ArrayList<BudgetDTO>();
+
 		boolean setWhere = true;
 		var paramenters = new ArrayList<Object>();
 		final StringBuilder sqlBuilder = new StringBuilder();
@@ -75,12 +79,14 @@ public class BudgetSqlServerDAO extends DAORelational implements BudgetDAO {
 			}
 
 			if (!UUIDHelper.isDefualtUUID(budget.getYear().getId())) {
-				sqlBuilder.append(setWhere ? "WEHERE " : "AND ").append("WHERE Bu.idYear = ? ");
+				sqlBuilder.append(setWhere ? "WEHERE " : "AND ")
+						.append("WHERE Bu.idYear = ? ");
 				paramenters.add(budget.getYear().getIdAsString());
 			}
 
 			if (!UUIDHelper.isDefualtUUID(budget.getPersona().getId())) {
-				sqlBuilder.append(setWhere ? "WEHERE " : "AND ").append("WHERE Bu.idPerson = ? ");
+				sqlBuilder.append(setWhere ? "WEHERE " : "AND ")
+						.append("WHERE Bu.idPerson = ? ");
 				paramenters.add(budget.getPersona().getIdAsString());
 			}
 
@@ -89,27 +95,131 @@ public class BudgetSqlServerDAO extends DAORelational implements BudgetDAO {
 		sqlBuilder.append("ORDER BY Pe.idCard ASC, ");
 		sqlBuilder.append("              Ye.year ASC.");
 
-		try (final var preparedStatement = getConnection().prepareStatement(sqlBuilder.toString())) {
+		try (final var preparedStatement = getConnection()
+				.prepareStatement(sqlBuilder.toString())) {
 			for (int index = 0; index < paramenters.size(); index++) {
 				preparedStatement.setObject(index + 1, paramenters.get(index));
 			}
-			try (final var resultSet = preparedStatement.executeQuery()) {
-				
-				
-				resultSet.getNString(0);
-				
+			return executeQuery(preparedStatement);
+		} catch (final DataCustomException exception) {
+			throw exception;
+
+		} catch (final SQLException exception) {
+
+			throw DataCustomException.createTechnicalException(
+					Messages.BudgetSqlServerDAO.TECHNICAL_PROBLEM_FILL_RESULTS,
+					exception);
+		} catch (final Exception exception) {
+
+			throw DataCustomException.createTechnicalException(
+					Messages.BudgetSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FILL_RESULTS,
+					exception);
+		}
+//private final void createWheres(final StringBuilder sqlBuilder,final  BudgetDTO budget, final List<Object> parameters) {
+
+//}
+
+	}
+
+	private final List<BudgetDTO> executeQuery(PreparedStatement preparedStatement) {
+		try (final var resultSet = preparedStatement.executeQuery()) {
+			return fillResults(resultSet);
+		}catch (final DataCustomException exception) {
+		throw exception;
+
+	} catch (final SQLException exception) {
+
+		throw DataCustomException.createTechnicalException(
+				Messages.BudgetSqlServerDAO.TECHNICAL_PROBLEM_FILL_RESULTS,
+				exception);
+	} catch (final Exception exception) {
+
+		throw DataCustomException.createTechnicalException(
+				Messages.BudgetSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FILL_RESULTS,
+				exception);
+	}
+		
+	}
+
+	private final BudgetDTO fillBudgetDTO(final ResultSet resultSet) throws SQLException {
+		try {
+			// YearDTO.create(resultSet.getString("IdYear"),
+			// resultSet.getShort("NumberYear"));
+
+			// PersonDTO.create(resultSet.getString("IdPerson"),
+			// resultSet.getString("IdCardPerson"),
+			// resultSet.getString("IdFirstNamePerson"),
+			// resultSet.getString("IdSecundNamePerson"),
+			// resultSet.getString("IdFristSurnamePerson"),
+			// resultSet.getString("IdSecondSurnamePerson"));
+
+			return BudgetDTO.create(resultSet.getString("idBudget"),
+					fillPersonDTO(resultSet), fillYearDTO(resultSet));
+		} catch (final DataCustomException exception) {
+			throw exception;
+		} catch (final SQLException exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.BudgetSqlServerDAO.TECHNICAL_PROBLEM_FILL_BUDGETDTO,
+					exception);
+		} catch (final Exception exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.BudgetSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FILL_BUDGETDTO,
+					exception);
+		}
+	}
+
+	private final List<BudgetDTO> fillResults(final ResultSet resultSet) {
+		try {
+			var results = new ArrayList<BudgetDTO>();
+			while (resultSet.next()) {
+
+				results.add(fillBudgetDTO(resultSet));
 			}
-		} catch (SQLException exception) {
-			final var message = Messages.BudgetSqlServerDAO.TECHNICAL_PROBLEM_FIND_BUDGET
-					.concat(budget.getIdAsString());
-			throw DataCustomException.createTechnicalException(message, exception);
-		} catch (Exception exception) {
-			final var message = Messages.BudgetSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FIND_BUDGET
-					.concat(budget.getIdAsString());
-			throw DataCustomException.createTechnicalException(message, exception);
+			return results;
+		} catch (final SQLException exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.BudgetSqlServerDAO.TECHNICAL_PROBLEM_FILL_RESULTS,
+					exception);
+		} catch (final Exception exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.BudgetSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FILL_RESULTS,
+					exception);
 		}
 
-		return results;
+	}
+
+	private final YearDTO fillYearDTO(final ResultSet resultSet) {
+		try {
+			return YearDTO.create(resultSet.getString("IdYear"),
+					resultSet.getInt("NumberYear"));
+		} catch (final SQLException exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.BudgetSqlServerDAO.TECHNICAL_PROBLEM_FILL_YEARDTO,
+					exception);
+		} catch (final Exception exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.BudgetSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FILL_YEARDTO,
+					exception);
+		}
+	}
+
+	private final PersonDTO fillPersonDTO(final ResultSet resultSet) {
+		try {
+			return PersonDTO.create(resultSet.getString("IdPerson"),
+					resultSet.getString("IdCardPerson"),
+					resultSet.getString("IdFirstNamePerson"),
+					resultSet.getString("IdSecundNamePerson"),
+					resultSet.getString("IdFristSurnamePerson"),
+					resultSet.getString("IdSecondSurnamePerson"));
+		} catch (final SQLException exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.BudgetSqlServerDAO.TECHNICAL_PROBLEM_FILL_PERSONDTO,
+					exception);
+		} catch (final Exception exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.BudgetSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FILL_PERSONDTO,
+					exception);
+		}
 	}
 
 	@Override
@@ -123,6 +233,7 @@ public class BudgetSqlServerDAO extends DAORelational implements BudgetDAO {
 			preparedStatement.setString(3, budget.getPersona().getIdAsString());
 
 			preparedStatement.executeUpdate();
+
 		} catch (final SQLException exception) {
 			final var message = Messages.BudgetSqlServerDAO.TECHNICAL_PROBLEM_UPDATE_BUDGET
 					.concat(budget.getIdAsString());
@@ -150,7 +261,7 @@ public class BudgetSqlServerDAO extends DAORelational implements BudgetDAO {
 		} catch (final Exception exception) {
 
 			final var message = Messages.BudgetSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_DELETE_BUDGET;
-			throw DataCustomException.createTechnicalException(message , exception);
+			throw DataCustomException.createTechnicalException(message, exception);
 		}
 	}
 

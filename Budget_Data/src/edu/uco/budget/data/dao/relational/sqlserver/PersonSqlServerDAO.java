@@ -49,7 +49,7 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 	}
 
 	@Override
-	public final List<PersonDTO> find(PersonDTO person) {
+	public final List<PersonDTO> find(PersonDTO person) throws SQLException {
 		var results = new ArrayList<PersonDTO>();
 		boolean setWhere = true;
 		var paramenters = new ArrayList<Object>();
@@ -59,7 +59,8 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 		sqlBuilder.append("              IdCard As Card, ");
 		sqlBuilder.append("              firstName As FirstName, ");
 		sqlBuilder.append("              secondName As SecondName, ");
-		sqlBuilder.append("              firstSurname As FirstSurname,firstName,   secondName, firstSurname,   secondSurname ");
+		sqlBuilder.append(
+				"              firstSurname As FirstSurname,firstName,   secondName, firstSurname,   secondSurname ");
 		sqlBuilder.append("              secondSurname As SecondSurname, ");
 
 		sqlBuilder.append(" FROM Year  ");
@@ -74,25 +75,27 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 		}
 
 		sqlBuilder.append("ORDER BY firstSurname ASC ");
-		
 
 		try (final var preparedStatement = getConnection().prepareStatement(sqlBuilder.toString())) {
-			for (int index = 0; index < paramenters.size(); index++) {
-				preparedStatement.setObject(index + 1, paramenters.get(index));
-			}
 			try (final var resultSet = preparedStatement.executeQuery()) {
-				// fill the list with the results
-			}
-		} catch (SQLException exception) {
-			final var message = Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_FIND_PERSON
-					.concat(person.getIdAsString());
-			throw DataCustomException.createTechnicalException(message, exception);
-		} catch (Exception exception) {
-			final var message = Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FIND_PERSON
-					.concat(person.getIdAsString());
-			throw DataCustomException.createTechnicalException(message, exception);
-		}
 
+				while (resultSet.next()) {
+					PersonDTO personTmp = PersonDTO.create(resultSet.getString("IdPerson"),
+							resultSet.getString("IdCard"), resultSet.getString("IdFirstName"),
+							resultSet.getString("IdSecundName"), resultSet.getString("IdFristSurname"),
+							resultSet.getString("IdSecondSurname"));
+					results.add(personTmp);
+				}
+			} catch (SQLException exception) {
+				final var message = Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_FIND_PERSON
+						.concat(person.getIdAsString());
+				throw DataCustomException.createTechnicalException(message, exception);
+			} catch (Exception exception) {
+				final var message = Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FIND_PERSON
+						.concat(person.getIdAsString());
+				throw DataCustomException.createTechnicalException(message, exception);
+			}
+		}
 		return results;
 	}
 

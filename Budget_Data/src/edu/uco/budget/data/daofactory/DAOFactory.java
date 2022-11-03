@@ -18,7 +18,7 @@ public abstract class DAOFactory {
 	public static final DAOFactory getDAOFactory(final DAOFactoryType factory) {
 
 		DAOFactory daoFactory = null;
-		Connection connection = null;
+		
 
 		switch (factory) {
 		case SQL_SERVER:

@@ -1,11 +1,15 @@
 package edu.uco.budget.domain;
 
 import java.util.UUID;
+
+
+
 import static edu.uco.budget.crosscutting.helper.NumberHelper.isLessThan;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getNewUUID;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDAsString;
 import static edu.uco.budget.crosscutting.helper.NumberHelper.ZERO;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDFromString;
 
 public final class YearDTO {
 
@@ -39,12 +43,19 @@ public final class YearDTO {
 		this.yearNumber = (short) (isLessThan(i, ZERO) ? ZERO : i);
 	}
 
-	public static final YearDTO create(UUID id, int i) {
-		return new YearDTO(UUID.randomUUID(), i);
+	public static final YearDTO create(final UUID id, final int yearNumber) {
+		return new YearDTO(UUID.randomUUID(), yearNumber);
+	}
+	
+	public static final YearDTO create(final String id, final int yearNumber) {
+		return new YearDTO(getUUIDFromString(id), yearNumber);
 	}
 	
 	public final String getIdAsString() {
 		return getUUIDAsString(getId());
 	}
+
+	
+	
 
 }

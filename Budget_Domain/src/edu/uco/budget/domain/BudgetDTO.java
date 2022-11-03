@@ -68,4 +68,9 @@ public final class BudgetDTO {
 		return getUUIDAsString(getId());
 	}
 
+	public static BudgetDTO create(final String id, PersonDTO personTmp, YearDTO yearTmp) {
+		
+		return new BudgetDTO();
+	}
+
 }                                                                                                                                      //a partir de 6:30 empieza el compartido de este preyecto y los comprate Steven

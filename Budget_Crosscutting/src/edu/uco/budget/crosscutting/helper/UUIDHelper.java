@@ -1,6 +1,10 @@
 package edu.uco.budget.crosscutting.helper;
 
 import java.util.UUID;
+
+import edu.uco.budget.crosscutting.exception.data.CrosscuttingCustomException;
+import edu.uco.budget.crosscutting.messages.Messages;
+
 import static edu.uco.budget.crosscutting.helper.ObjectHelper.getDefaultIfNull;
 
 public final class UUIDHelper {
@@ -29,6 +33,18 @@ public final class UUIDHelper {
 	
 	public static final String getUUIDAsString(final UUID value) {
 		return getDefaultUUID(value).toString();
+	}
+	
+	public static final UUID getUUIDFromString(final String value) {
+		try {
+			return UUID.fromString(StringHelper.getDefaultString(value, DEFAULT_UUID_AS_STRING));
+		}catch( final IllegalArgumentException exception) {
+			throw CrosscuttingCustomException.createTechnicalException(Messages.UUIDHelper.TECHNICAL_UUID_FROM_STRING_INVALID,exception);
+					
+		}catch( final Exception exception) {
+			throw CrosscuttingCustomException.createTechnicalException(Messages.UUIDHelper.TECHNICAL_UUID_FROM_STRING_UNEXPECTED_ERROR,exception);
+		}
+		
 	}
 	
 	public static final boolean isDefualtUUID(final UUID value) {

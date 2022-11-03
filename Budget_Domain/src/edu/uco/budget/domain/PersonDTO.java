@@ -5,8 +5,11 @@ import static edu.uco.budget.crosscutting.helper.StringHelper.applyTrim;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getNewUUID;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDAsString;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDFromString;
 
 import java.util.UUID;
+
+import edu.uco.budget.crosscutting.helper.StringHelper;
 
 public final class PersonDTO {
 
@@ -92,5 +95,11 @@ public final class PersonDTO {
 
 	public final String getIdAsString() {
 		return getUUIDAsString(getId());
+	}
+
+	public static final PersonDTO create(final String id,final  String idCard,final  String firstName,final  String secondName,final  String firstSurnmame,final 
+			String secondSurname) {
+		
+		return new PersonDTO(getUUIDFromString(id), idCard, firstName, secondName, firstSurnmame, secondSurname);
 	}
 }

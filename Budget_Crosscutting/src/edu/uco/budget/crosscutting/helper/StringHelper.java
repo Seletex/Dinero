@@ -13,7 +13,7 @@ public final class StringHelper {
 	}
 
 	public static final String getDefaultString(String value,String defaultValue) {
-		return getDefaultIfNull(value, EMPTY);
+		return (String) getDefaultIfNull(value, EMPTY);
 	}
 
 	public static final String getDefaultString(String value) {

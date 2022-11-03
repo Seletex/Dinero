@@ -59,7 +59,7 @@ public class YearSqlServerDAO extends DAORelational implements YearDAO {
 		sqlBuilder.append(" FROM Year  ");
 
 		if (!ObjectHelper.isNull(year)) {
-			if (!UUIDHelper.isDefualtUUID(year.getId())) {
+			if(!UUIDHelper.isDefualtUUID(year.getId())) {
 				sqlBuilder.append("WHERE Bu.id = ? ");
 				setWhere = false;
 				paramenters.add(year.getIdAsString());

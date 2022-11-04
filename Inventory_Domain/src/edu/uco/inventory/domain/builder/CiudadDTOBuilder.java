@@ -4,6 +4,7 @@ import static edu.uco.inventory.domain.CiudadDTO.create;
 
 import java.util.UUID;
 
+
 import edu.uco.inventory.domain.CiudadDTO;
 import edu.uco.inventory.domain.DepartamentoDTO;
 
@@ -40,4 +41,5 @@ public class CiudadDTOBuilder {
 		return create(id, nombre, departamento);
 	}
 
+	
 }

@@ -1,9 +1,11 @@
 package edu.uco.inventory.domain;
 
+import static edu.uco.inventory.crosscutting.helper.ObjectHelper.getDefaultIfNull;
 import static edu.uco.inventory.crosscutting.helper.StringHelper.EMPTY;
 import static edu.uco.inventory.crosscutting.helper.StringHelper.applyTrim;
 import static edu.uco.inventory.crosscutting.helper.UUIDHelper.getDefaultUUID;
 import static edu.uco.inventory.crosscutting.helper.UUIDHelper.getNewUUID;
+import static edu.uco.inventory.domain.builder.DepartamentoDTOBuilder.getDepartamentoDTOBuilder;
 
 import java.util.UUID;
 
@@ -19,7 +21,8 @@ public class CiudadDTO {
 		setDepartamento(DepartamentoDTO.create(getNewUUID(), EMPTY, null));
 	}
 
-	public CiudadDTO(final UUID id, final String nombre, final DepartamentoDTO departamento) {
+	public CiudadDTO(final UUID id, final String nombre,
+			final DepartamentoDTO departamento) {
 		setId(id);
 		setNombre(nombre);
 		setDepartamento(departamento);
@@ -30,7 +33,8 @@ public class CiudadDTO {
 	}
 
 	public final void setDepartamento(DepartamentoDTO departamento) {
-		this.departamento = departamento;
+		this.departamento = getDefaultIfNull(departamento,
+				getDepartamentoDTOBuilder().build());
 	}
 
 	public final UUID getId() {
@@ -49,7 +53,8 @@ public class CiudadDTO {
 		this.nombre = applyTrim(nombre);
 	}
 
-	public static final CiudadDTO create(final UUID id, final String nombre, final DepartamentoDTO Departamento) {
+	public static final CiudadDTO create(final UUID id, final String nombre,
+			final DepartamentoDTO Departamento) {
 		return new CiudadDTO(id, nombre, Departamento);
 	}
 }

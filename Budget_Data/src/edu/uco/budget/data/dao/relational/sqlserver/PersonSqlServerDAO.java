@@ -3,6 +3,8 @@ package edu.uco.budget.data.dao.relational.sqlserver;
 import static edu.uco.budget.crosscutting.helper.StringHelper.getUUIDAsString;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +40,8 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 
 			preparedStatement.executeUpdate();
 		} catch (final SQLException exception) {
-			String message = Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_CREATE_PERSON.concat(person.getIdAsString());
+			String message = Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_CREATE_PERSON
+					.concat(person.getIdAsString());
 			throw DataCustomException.createTechnicalException(message, exception);
 		} catch (final Exception exception) {
 			String message = Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_CREATE_PERSON
@@ -50,11 +53,17 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 
 	@Override
 	public final List<PersonDTO> find(PersonDTO person) throws SQLException {
-		var results = new ArrayList<PersonDTO>();
-		boolean setWhere = true;
+		
 		var paramenters = new ArrayList<Object>();
 		final StringBuilder sqlBuilder = new StringBuilder();
 
+		createSelectFrom(sqlBuilder);
+		createWhere(sqlBuilder, person, paramenters);
+		createOrderBy(sqlBuilder);
+		return prepareAndExecuteQuery(sqlBuilder, paramenters);
+	}
+
+	private final void createSelectFrom(final StringBuilder sqlBuilder) {
 		sqlBuilder.append("SELECT         Id As IdYear, ");
 		sqlBuilder.append("              IdCard As Card, ");
 		sqlBuilder.append("              firstName As FirstName, ");
@@ -62,41 +71,127 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 		sqlBuilder.append(
 				"              firstSurname As FirstSurname,firstName,   secondName, firstSurname,   secondSurname ");
 		sqlBuilder.append("              secondSurname As SecondSurname, ");
+		sqlBuilder.append("From Person");
+	}
 
-		sqlBuilder.append(" FROM Year  ");
-
+	private final void createWhere(final StringBuilder sqlBuilder, final PersonDTO person,
+			final List<Object> parameters) {
+		
 		if (!ObjectHelper.isNull(person)) {
 			if (!UUIDHelper.isDefualtUUID(person.getId())) {
 				sqlBuilder.append("WHERE Bu.id = ? ");
-				setWhere = false;
-				paramenters.add(person.getIdAsString());
+				
+				parameters.add(person.getIdAsString());
 			}
 
 		}
+	}
 
-		sqlBuilder.append("ORDER BY firstSurname ASC ");
+	private final void createOrderBy(final StringBuilder sqlBuilder) {
 
-		try (final var preparedStatement = getConnection().prepareStatement(sqlBuilder.toString())) {
-			try (final var resultSet = preparedStatement.executeQuery()) {
+		sqlBuilder.append("ORDER BY idCard ASC, ");
+		sqlBuilder.append("firstSurname ASC ");
+	}
 
-				while (resultSet.next()) {
-					PersonDTO personTmp = PersonDTO.create(resultSet.getString("IdPerson"),
-							resultSet.getString("IdCard"), resultSet.getString("IdFirstName"),
-							resultSet.getString("IdSecundName"), resultSet.getString("IdFristSurname"),
-							resultSet.getString("IdSecondSurname"));
-					results.add(personTmp);
-				}
-			} catch (SQLException exception) {
-				final var message = Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_FIND_PERSON
-						.concat(person.getIdAsString());
-				throw DataCustomException.createTechnicalException(message, exception);
-			} catch (Exception exception) {
-				final var message = Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FIND_PERSON
-						.concat(person.getIdAsString());
-				throw DataCustomException.createTechnicalException(message, exception);
-			}
+	private final List<PersonDTO> executeQuery(PreparedStatement preparedStatement) {
+		try (final var resultSet = preparedStatement.executeQuery()) {
+			return fillResults(resultSet);
+		} catch (final DataCustomException exception) {
+			throw exception;
+
+		} catch (final SQLException exception) {
+
+			throw DataCustomException.createTechnicalException(
+					Messages.BudgetSqlServerDAO.TECHNICAL_PROBLEM_EXECUTE_QUERY,
+					exception);
+		} catch (final Exception exception) {
+
+			throw DataCustomException.createTechnicalException(
+					Messages.BudgetSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_EXECUTE_QUERY,
+					exception);
 		}
-		return results;
+
+	}
+
+	private final List<PersonDTO> prepareAndExecuteQuery(final StringBuilder sqlBuilder,
+			final List<Object> parameters) {
+		try (final var preparedStatement = getConnection()
+				.prepareStatement(sqlBuilder.toString())) {
+
+			setParameterValues(preparedStatement, parameters);
+
+			return executeQuery(preparedStatement);
+		} catch (final DataCustomException exception) {
+			throw exception;
+
+		} catch (final SQLException exception) {
+
+			throw DataCustomException.createTechnicalException(
+					Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_PREPARED_STATEMENT,
+					exception);
+		} catch (final Exception exception) {
+
+			throw DataCustomException.createTechnicalException(
+					Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_PREPARED_STATEMENT,
+					exception);
+		}
+	}
+
+	private final List<PersonDTO> fillResults(final ResultSet resultSet) {
+		try {
+			var results = new ArrayList<PersonDTO>();
+			while (resultSet.next()) {
+
+				results.add(fillPersonDTO(resultSet));
+			}
+			return results;
+		} catch (final SQLException exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_FILL_RESULTS,
+					exception);
+		} catch (final Exception exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FILL_RESULTS,
+					exception);
+		}
+
+	}
+
+	private final PersonDTO fillPersonDTO(final ResultSet resultSet) {
+		try {
+			return PersonDTO.create(resultSet.getString("IdPerson"),
+					resultSet.getString("IdCardPerson"),
+					resultSet.getString("IdFirstNamePerson"),
+					resultSet.getString("IdSecundNamePerson"),
+					resultSet.getString("IdFristSurnamePerson"),
+					resultSet.getString("IdSecondSurnamePerson"));
+		} catch (final SQLException exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_FILL_PERSON_DTO,
+					exception);
+		} catch (final Exception exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_FILL_PERSON_DTO,
+					exception);
+		}
+	}
+
+	private final void setParameterValues(final PreparedStatement preparedStatement,
+			final List<Object> paramenters) {
+		try {
+			for (int index = 0; index < paramenters.size(); index++) {
+				preparedStatement.setObject(index + 1, paramenters.get(index));
+			}
+		} catch (final SQLException exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.PersonSqlServerDAO.TECHNICAL_PROBLEM_SET_PARAMETER_VALUES_QUERY,
+					exception);
+		} catch (final Exception exception) {
+			throw DataCustomException.createTechnicalException(
+					Messages.PersonSqlServerDAO.TECHNICAL_UNEXPECTED_PROBLEM_SET_PARAMETER_VALUES_QUERY,
+					exception);
+		}
+
 	}
 
 	@Override

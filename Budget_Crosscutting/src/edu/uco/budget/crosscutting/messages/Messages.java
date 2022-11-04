@@ -78,14 +78,19 @@ public class Messages {
 		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FIND_BUDGET = "There was a Problem recovering from the select";
 		public static final String TECHNICAL_PROBLEM_FILL_RESULTS = "There was an unexpected problem to recovering trying  from the select";
 		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_RESULTS = "There was an unexpected problem to recovering trying  from the select";
-		public static final String TECHNICAL_PROBLEM_FILL_BUDGETDTO = "There was an unexpected problem to recovering trying  from the select";
-		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_BUDGETDTO = "There was an unexpected problem to recovering trying  from the select";
-		public static final String TECHNICAL_PROBLEM_FILL_YEARDTO = "There was an unexpected problem to recovering trying  from the select";
-		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_YEARDTO = "There was an unexpected problem to recovering trying  from the select";
-		public static final String TECHNICAL_PROBLEM_FILL_PERSONDTO = "There was an unexpected problem to recovering trying  from the select";
-		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_PERSONDTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_PROBLEM_FILL_BUDGET_DTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_BUDGET_DTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_PROBLEM_FILL_YEAR_DTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_YEAR_DTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_PROBLEM_FILL_PERSON_DTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_PERSON_DTO = "There was an unexpected problem to recovering trying  from the select";
 		public static final String PROBLEM_PREPARED_STATEMENT = "There was an unexpected problem";
-
+		public static final String TECHNICAL_PROBLEM_EXECUTE_QUERY = "Trying to execute query to find the specific budget";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_EXECUTE_QUERY = "There was an unexpected problem trying to execute query to find the specific budget";
+		public static final String TECHNICAL_PROBLEM_SET_PARAMETER_VALUES_QUERY = "Trying to execute query to set the paramenter values to the query";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_SET_PARAMETER_VALUES_QUERY = "There was an unexpected problem trying to set the paramenter values to the query";
+		public static final String TECHNICAL_PROBLEM_PREPARED_STATEMENT = "There was a problem trying to prepare the sql statement ";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_PREPARED_STATEMENT = "There was an unexpected problem trying to to prepare the sql statement";
 	}
 	
 	public static class YearSqlServerDAO {
@@ -101,6 +106,15 @@ public class Messages {
 		public static final String TECHNICAL_UNEXPECTED_PROBLEM_DELETE_YEAR = "There was a Problem trying to delete desired budget in SQLServerDAOFactory";
 		public static final String TECHNICAL_PROBLEM_FIND_YEAR = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
 		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FIND_YEAR = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
+		public static final String PROBLEM_PREPARED_STATEMENT = "There was an unexpected problem";
+		public static final String TECHNICAL_PROBLEM_EXECUTE_QUERY = "Trying to execute query to find the specific budget";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_EXECUTE_QUERY = "There was an unexpected problem trying to execute query to find the specific budget";
+		public static final String TECHNICAL_PROBLEM_SET_PARAMETER_VALUES_QUERY = "Trying to execute query to set the paramenter values to the query";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_SET_PARAMETER_VALUES_QUERY = "There was an unexpected problem trying to set the paramenter values to the query";
+		public static final String TECHNICAL_PROBLEM_PREPARED_STATEMENT = "There was a problem trying to prepare the sql statement ";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_PREPARED_STATEMENT = "There was an unexpected problem trying to to prepare the sql statement";
+		public static final String TECHNICAL_PROBLEM_FILL_RESULTS = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_RESULTS = "There was an unexpected problem to recovering trying  from the select";
 	}
 	
 	public static class PersonSqlServerDAO {
@@ -116,6 +130,17 @@ public class Messages {
 		public static final String TECHNICAL_UNEXPECTED_PROBLEM_DELETE_PERSON = "There was a Problem trying to delete desired budget in SQLServerDAOFactory";
 		public static final String TECHNICAL_PROBLEM_FIND_PERSON = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
 		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FIND_PERSON = "There was a Problem trying to find desired budget in SQLServerDAOFactory";
+		public static final String TECHNICAL_PROBLEM_FILL_PERSON_DTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_PERSON_DTO = "There was an unexpected problem to recovering trying  from the select";
+		public static final String PROBLEM_PREPARED_STATEMENT = "There was an unexpected problem";
+		public static final String TECHNICAL_PROBLEM_EXECUTE_QUERY = "Trying to execute query to find the specific budget";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_EXECUTE_QUERY = "There was an unexpected problem trying to execute query to find the specific budget";
+		public static final String TECHNICAL_PROBLEM_SET_PARAMETER_VALUES_QUERY = "Trying to execute query to set the paramenter values to the query";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_SET_PARAMETER_VALUES_QUERY = "There was an unexpected problem trying to set the paramenter values to the query";
+		public static final String TECHNICAL_PROBLEM_PREPARED_STATEMENT = "There was a problem trying to prepare the sql statement ";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_PREPARED_STATEMENT = "There was an unexpected problem trying to to prepare the sql statement";
+		public static final String TECHNICAL_PROBLEM_FILL_RESULTS = "There was an unexpected problem to recovering trying  from the select";
+		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_RESULTS = "There was an unexpected problem to recovering trying  from the select";
 	}
 
 }

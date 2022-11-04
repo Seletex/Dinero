@@ -4,6 +4,6 @@ import edu.uco.budget.domain.BudgetDTO;
 
 public interface CreateBudgetCommand {
 
-	void execute(BudgetDTO budget) throws Throwable;
+	void execute(BudgetDTO budget);
 
 }

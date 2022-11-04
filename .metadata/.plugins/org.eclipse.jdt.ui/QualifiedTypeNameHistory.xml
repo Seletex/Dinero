@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="edu.uco.budget.data.daofactory.relational.SqlServerDAOFactory"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.DAOFactory"/>
     <fullyQualifiedTypeName name="edu.uco.budget.data.dao.relational.DAORelational"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.person.CreatePersonUseCase"/>
     <fullyQualifiedTypeName name="edu.uco.inventory.crosscutting.helper.StringHelper"/>
     <fullyQualifiedTypeName name="edu.uco.inventory.data.dao.PaisDAO"/>
     <fullyQualifiedTypeName name="edu.uco.inventory.service.usecase.pais.CreatePaisUseCase"/>
@@ -54,6 +53,10 @@
     <fullyQualifiedTypeName name="edu.uco.budget.data.daofactory.DAOFactory"/>
     <fullyQualifiedTypeName name="edu.uco.budget.data.enumeration.DAOFactoryType"/>
     <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.budget.CreateBudgetUseCase"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.BudgetSqlServerDAO"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.BudgetSqlServerDAO"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.budget.implementation.CreateBudgetUseCaseImpl"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.service.command.CreatePersonCommand"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.person.CreatePersonUseCase"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.person.implementation.CreatePersonUseCaseImpl"/>
 </qualifiedTypeNameHistroy>

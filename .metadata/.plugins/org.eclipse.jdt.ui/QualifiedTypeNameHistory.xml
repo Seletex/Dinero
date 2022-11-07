@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="edu.uco.budget.data.daofactory.relational.SqlServerDAOFactory"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.DAOFactory"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.data.dao.relational.DAORelational"/>
-    <fullyQualifiedTypeName name="edu.uco.inventory.crosscutting.helper.StringHelper"/>
-    <fullyQualifiedTypeName name="edu.uco.inventory.data.dao.PaisDAO"/>
-    <fullyQualifiedTypeName name="edu.uco.inventory.service.usecase.pais.CreatePaisUseCase"/>
-    <fullyQualifiedTypeName name="edu.uco.calculadora.business.Calculadora"/>
-    <fullyQualifiedTypeName name="edu.uco.calculadora.transversal.NumeroNegativoException"/>
     <fullyQualifiedTypeName name="edu.uco.inventory.domain.DepartamentoDTO"/>
     <fullyQualifiedTypeName name="edu.uco.inventory.domain.CiudadDTO"/>
     <fullyQualifiedTypeName name="java.rmi.AccessException"/>
@@ -24,7 +16,6 @@
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.BudgetCustomException"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.enumeration.LayerException"/>
     <fullyQualifiedTypeName name="edu.uco.budget.data.dao.relational.sqlserver.BudgetSqlServerDAO"/>
     <fullyQualifiedTypeName name="edu.uco.budget.data.dao.relational.sqlserver.PersonSqlServerDAO"/>
@@ -35,17 +26,13 @@
     <fullyQualifiedTypeName name="edu.uco.budget.domain.builder.YearDTOBuilder"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.ObjectHelper"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.PersonSqlServerDAO"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.domain.YearDTO"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.data.CrosscuttingCustomException"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.UUIDHelper"/>
     <fullyQualifiedTypeName name="edu.uco.budget.domain.PersonDTO"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.StringHelper"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.UUIDHelper"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="edu.uco.budget.domain.BudgetDTO"/>
     <fullyQualifiedTypeName name="edu.uco.budget.service.command.CreateBudgetCommand"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.data.daofactory.DAOFactory"/>
     <fullyQualifiedTypeName name="edu.uco.budget.data.enumeration.DAOFactoryType"/>
     <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.budget.CreateBudgetUseCase"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
@@ -60,4 +47,17 @@
     <fullyQualifiedTypeName name="edu.uco.inventory.domain.builder.AlmacenDTOBuilder"/>
     <fullyQualifiedTypeName name="edu.uco.inventory.domain.SeccionDTO"/>
     <fullyQualifiedTypeName name="edu.uco.inventory.domain.CiudadoDTO"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.BudgetCustomException"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.budget.FindNextYearUseCase"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.data.daofactory.DAOFactory"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.DateHelper"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.year.implementation.FindNextYearUseCaseImpl"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.domain.YearDTO"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.person.FindPersonExistUseCase"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.ServiceCustomException"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.UUIDHelper"/>
+    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.service.ServiceCustomException"/>
 </qualifiedTypeNameHistroy>

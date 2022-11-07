@@ -6,24 +6,24 @@ import java.util.UUID;
 
 import edu.uco.inventory.domain.CiudadoDTO;
 
-public class Unidad_MedidaDTOBuilder {
+public class UnidadMedidaDTOBuilder {
 	private UUID id;
 	private String descripcion;
 
-	private Unidad_MedidaDTOBuilder() {
+	private UnidadMedidaDTOBuilder() {
 		super();
 	}
 
-	public static final Unidad_MedidaDTOBuilder getUnidad_MedidaDTOBuilder() {
-		return new Unidad_MedidaDTOBuilder();
+	public static final UnidadMedidaDTOBuilder getUnidad_MedidaDTOBuilder() {
+		return new UnidadMedidaDTOBuilder();
 	}
 
-	public final Unidad_MedidaDTOBuilder setId(final UUID id) {
+	public final UnidadMedidaDTOBuilder setId(final UUID id) {
 		this.id = id;
 		return this;
 	}
 
-	public final Unidad_MedidaDTOBuilder setDescripcion(final String descripcion) {
+	public final UnidadMedidaDTOBuilder setDescripcion(final String descripcion) {
 		this.descripcion = descripcion;
 		return this;
 	}

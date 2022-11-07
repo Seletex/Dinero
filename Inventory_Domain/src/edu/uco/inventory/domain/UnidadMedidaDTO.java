@@ -7,16 +7,16 @@ import static edu.uco.inventory.crosscutting.helper.UUIDHelper.getNewUUID;
 
 import java.util.UUID;
 
-public class Unidad_MedidaDTO {
+public class UnidadMedidaDTO {
 	private UUID id;
 	private String nombre;
 
-	public Unidad_MedidaDTO() {
+	public UnidadMedidaDTO() {
 		setId(getNewUUID());
 		setNombre(EMPTY);
 	}
 
-	public Unidad_MedidaDTO(final UUID id, final String nombre) {
+	public UnidadMedidaDTO(final UUID id, final String nombre) {
 
 		setId(id);
 		setNombre(EMPTY);
@@ -38,7 +38,7 @@ public class Unidad_MedidaDTO {
 		this.nombre = applyTrim(nombre);
 	}
 
-	public static final Unidad_MedidaDTO create(UUID id, String nombre) {
-		return new Unidad_MedidaDTO(id, nombre);
+	public static final UnidadMedidaDTO create(UUID id, String nombre) {
+		return new UnidadMedidaDTO(id, nombre);
 	}
 }

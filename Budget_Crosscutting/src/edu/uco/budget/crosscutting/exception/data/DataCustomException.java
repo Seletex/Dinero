@@ -16,7 +16,7 @@ public class DataCustomException extends BudgetCustomException{
 	private static final long serialVersionUID = 6955662894932198270L;
 	
 	private DataCustomException(final String userMessage,final String technicalMessage, final Exception rootException) {
-		super(userMessage,technicalMessage,rootException,LayerException.CROSSCUTTING);
+		super(userMessage,technicalMessage,rootException,LayerException.DATA);
 	}
 	
 	public static final BudgetCustomException createUserException(final String userMessage) {

@@ -9,6 +9,8 @@ import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDFromString;
 
 import java.util.UUID;
 
+import edu.uco.budget.crosscutting.helper.UUIDHelper;
+
 
 
 public final class PersonDTO {
@@ -45,6 +47,9 @@ public final class PersonDTO {
 		return new PersonDTO(UUID.randomUUID(), idCard, firstName, secondName, firstSurname, secondSurname);
 	}
 
+	public static final PersonDTO create(final UUID id) {
+		return new PersonDTO(UUID.randomUUID(), EMPTY, EMPTY, EMPTY, EMPTY, EMPTY);
+	}
 	public final UUID getId() {
 		return id;
 	}
@@ -101,5 +106,10 @@ public final class PersonDTO {
 			String secondSurname) {
 		
 		return new PersonDTO(getUUIDFromString(id), idCard, firstName, secondName, firstSurnmame, secondSurname);
+	}
+	
+	public final boolean notExist() {
+		return UUIDHelper.isDefualtUUID(id);
+		//50 minute
 	}
 }

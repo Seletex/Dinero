@@ -8,7 +8,7 @@ import static edu.uco.budget.domain.builder.YearDTOBuilder.getYearDTOBuilder;
 import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDAsString;
 
 import java.util.UUID;
-
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
 
 
 public final class BudgetDTO {

@@ -142,5 +142,16 @@ public class Messages {
 		public static final String TECHNICAL_PROBLEM_FILL_RESULTS = "There was an unexpected problem to recovering trying  from the select";
 		public static final String TECHNICAL_UNEXPECTED_PROBLEM_FILL_RESULTS = "There was an unexpected problem to recovering trying  from the select";
 	}
+	public static class ServiceCustomException {
+		private ServiceCustomException() {
+			super();
+		}
+		
+		public static final String BUSINESS_PERSON_DOES_NOT_EXIST = "The person for whom  the budget was to be created dos not exist.";
+		public static final String BUSINESS_BUDGET_EXIST = "It already exist a budget for person and year.";
+		public static final String BUSINESS_BUDGET_EXIST2 = "It already exist a budget for person and year.";
+		public static final String BUSINESS_BUDGET_EXIST3 = "It already exist a budget for person and year.";
+
+	}
 
 }

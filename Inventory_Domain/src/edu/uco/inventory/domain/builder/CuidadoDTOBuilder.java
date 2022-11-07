@@ -26,7 +26,7 @@ public class CuidadoDTOBuilder {
 		return this;
 	}
 
-	public final CuidadoDTOBuilder setDescripcion(final String nombre) {
+	public final CuidadoDTOBuilder setDescripcion(final String descripcion) {
 		this.descripcion = descripcion;
 		return this;
 	}

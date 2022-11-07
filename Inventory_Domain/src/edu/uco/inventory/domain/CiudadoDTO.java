@@ -11,12 +11,12 @@ public class CiudadoDTO {
 	private UUID id;
 	private String descripcion;
 
-	public CiudadoDTO() {
+	public CiudadoDTO(UUID id, String descripcion) {
 		setId(getNewUUID());
 		setDescripcion(EMPTY);
 	}
 
-	public CiudadoDTO(final UUID id, final String nombre) {
+	public CiudadoDTO(final UUID id) {
 
 		setId(id);
 		setDescripcion(EMPTY);

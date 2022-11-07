@@ -6,7 +6,7 @@ import static edu.uco.inventory.domain.SeccionDTO.create;
 import java.util.UUID;
 
 import edu.uco.inventory.domain.AlmacenDTO;
-import edu.uco.inventory.domain.CiudadDTO;
+
 import edu.uco.inventory.domain.SeccionDTO;
 
 public class SeccionDTOBuilder {

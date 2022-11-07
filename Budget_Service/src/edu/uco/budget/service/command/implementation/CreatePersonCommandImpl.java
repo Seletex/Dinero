@@ -20,10 +20,11 @@ public class CreatePersonCommandImpl  implements CreatePersonCommand{
 			try {
 				factory.initTransaction();
 			} catch (Throwable e) {
-				// TODO Auto-generated catch block
+
 				e.printStackTrace();
 			}
 			//usecase execution
+			useCase.execute(person);
 			factory.confirmTransaction();
 		}catch(BudgetCustomException exception) {
 			

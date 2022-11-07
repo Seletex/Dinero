@@ -18,10 +18,11 @@ public class CreateYearCommandImpl  implements CreateYearCommand{
 			try {
 				factory.initTransaction();
 			} catch (Throwable e) {
-				// TODO Auto-generated catch block
+
 				e.printStackTrace();
 			}
 			//usecase execution
+			useCase.execute(year);
 			factory.confirmTransaction();
 		}catch(BudgetCustomException exception) {
 			

@@ -1,10 +1,10 @@
 package edu.uco.inventory.domain.builder;
 
-import static edu.uco.inventory.domain.CiudadoDTO.create;
+import static edu.uco.inventory.domain.CuidadoDTO.create;
 
 import java.util.UUID;
 
-import edu.uco.inventory.domain.CiudadoDTO;
+import edu.uco.inventory.domain.CuidadoDTO;
 
 public class UnidadMedidaDTOBuilder {
 	private UUID id;
@@ -28,7 +28,7 @@ public class UnidadMedidaDTOBuilder {
 		return this;
 	}
 
-	public CiudadoDTO build() {
+	public CuidadoDTO build() {
 		return create(id, descripcion);
 	}
 	

@@ -149,8 +149,8 @@ public class Messages {
 		
 		public static final String BUSINESS_PERSON_DOES_NOT_EXIST = "The person for whom  the budget was to be created dos not exist.";
 		public static final String BUSINESS_BUDGET_EXIST = "It already exist a budget for person and year.";
-		public static final String BUSINESS_BUDGET_EXIST2 = "It already exist a budget for person and year.";
-		public static final String BUSINESS_BUDGET_EXIST3 = "It already exist a budget for person and year.";
+		public static final String BUSINESS_BUDGET_FIND = "It already exist a budget for person and year.";
+		public static final String BUSINESS_BUDGET_UNEXPECTED_PROBLEM = "It already exist a budget for person and year.";
 
 	}
 

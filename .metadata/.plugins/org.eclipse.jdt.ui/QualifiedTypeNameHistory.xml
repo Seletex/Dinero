@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="edu.uco.inventory.domain.DepartamentoDTO"/>
-    <fullyQualifiedTypeName name="edu.uco.inventory.domain.CiudadDTO"/>
     <fullyQualifiedTypeName name="java.rmi.AccessException"/>
     <fullyQualifiedTypeName name="java.rmi.RemoteException"/>
     <fullyQualifiedTypeName name="java.sql.SQLInvalidAuthorizationSpecException"/>
@@ -14,7 +12,6 @@
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.SqlConnectionHelper"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
-    <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.enumeration.LayerException"/>
     <fullyQualifiedTypeName name="edu.uco.budget.data.dao.relational.sqlserver.BudgetSqlServerDAO"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.ServiceCustomException"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.UUIDHelper"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.service.ServiceCustomException"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="edu.uco.inventory.crosscutting.helper.UUIDHelper"/>
+    <fullyQualifiedTypeName name="edu.uco.inventory.crosscutting.helper.StringHelper"/>
 </qualifiedTypeNameHistroy>

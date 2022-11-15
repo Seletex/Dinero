@@ -58,7 +58,7 @@ public class CiudadDTO {
 		this.nombre = applyTrim(nombre);
 	}
 
-	public static final CiudadDTO create(final String nombre,
+	public static final CiudadDTO create(final UUID id, final String nombre,
 			final DepartamentoDTO departamento) {
 		return new CiudadDTO(UUID.randomUUID(), nombre, departamento);
 	}
@@ -71,4 +71,6 @@ public class CiudadDTO {
 	public final String getIdAsString() {
 		return getUUIDAsString(getId());
 	}
+	
+	
 }

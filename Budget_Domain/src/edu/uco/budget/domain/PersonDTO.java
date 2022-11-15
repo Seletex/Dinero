@@ -1,15 +1,15 @@
 package edu.uco.budget.domain;
 
-import static edu.uco.budget.crosscutting.helper.StringHelper.EMPTY;
-import static edu.uco.budget.crosscutting.helper.StringHelper.applyTrim;
-import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
-import static edu.uco.budget.crosscutting.helper.UUIDHelper.getNewUUID;
-import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDAsString;
-import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDFromString;
+import static edu.uco.inventario.crosscutting.helper.StringHelper.EMPTY;
+import static edu.uco.inventario.crosscutting.helper.StringHelper.applyTrim;
+import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getDefaultUUID;
+import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getNewUUID;
+import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getUUIDAsString;
+import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getUUIDFromString;
 
 import java.util.UUID;
 
-import edu.uco.budget.crosscutting.helper.UUIDHelper;
+import edu.uco.inventario.crosscutting.helper.UUIDHelper;
 
 
 
@@ -43,13 +43,7 @@ public final class PersonDTO {
 		setSecondName(secondSurname);
 	}
 
-	public static final PersonDTO create(final UUID id,final String idCard,final String firstName,final String secondName,final String firstSurname,final String secondSurname) {
-		return new PersonDTO(UUID.randomUUID(), idCard, firstName, secondName, firstSurname, secondSurname);
-	}
-
-	public static final PersonDTO create(final UUID id) {
-		return new PersonDTO(UUID.randomUUID(), EMPTY, EMPTY, EMPTY, EMPTY, EMPTY);
-	}
+	
 	public final UUID getId() {
 		return id;
 	}
@@ -106,6 +100,24 @@ public final class PersonDTO {
 			String secondSurname) {
 		
 		return new PersonDTO(getUUIDFromString(id), idCard, firstName, secondName, firstSurnmame, secondSurname);
+	}
+	
+	public static final PersonDTO create(final UUID id,final  String idCard,final  String firstName,final  String secondName,final  String firstSurnmame,final 
+			String secondSurname) {
+		
+		return new PersonDTO(getDefaultUUID(id), idCard, firstName, secondName, firstSurnmame, secondSurname);
+	}
+	
+	public static final PersonDTO create(final String idCard,final String firstName,final String secondName,final String firstSurname,final String secondSurname) {
+		return new PersonDTO(UUID.randomUUID(), idCard, firstName, secondName, firstSurname, secondSurname);
+	}
+
+	public static final PersonDTO create() {
+		return new PersonDTO(UUID.randomUUID(), EMPTY, EMPTY, EMPTY, EMPTY, EMPTY);
+	}
+	
+	public static final PersonDTO create(final UUID id) {
+		return new PersonDTO(getDefaultUUID(id), EMPTY, EMPTY, EMPTY, EMPTY, EMPTY);
 	}
 	
 	public final boolean notExist() {

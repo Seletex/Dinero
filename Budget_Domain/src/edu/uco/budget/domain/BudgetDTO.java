@@ -1,15 +1,14 @@
 package edu.uco.budget.domain;
 
-import static edu.uco.budget.crosscutting.helper.ObjectHelper.getDefaultIfNull;
-import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
-import static edu.uco.budget.crosscutting.helper.UUIDHelper.getNewUUID;
 import static edu.uco.budget.domain.builder.PersonDTOBuilder.getPersonDTOBuilder;
 import static edu.uco.budget.domain.builder.YearDTOBuilder.getYearDTOBuilder;
-import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDAsString;
+import static edu.uco.inventario.crosscutting.helper.ObjectHelper.getDefaultIfNull;
+import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getDefaultUUID;
+import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getNewUUID;
+import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getUUIDAsString;
+import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getUUIDFromString;
 
 import java.util.UUID;
-import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
-
 
 public final class BudgetDTO {
 
@@ -17,18 +16,16 @@ public final class BudgetDTO {
 	private PersonDTO persona;
 	private YearDTO year;
 
-
-
 	public BudgetDTO(final UUID id, final PersonDTO persona, final YearDTO year) {
 		setId(id);
 		setPersona(persona);
 		setYear(year);
-		
+
 	}
 
 	public BudgetDTO() {
 		setId(getNewUUID());
-		
+
 		setPersona(getPersonDTOBuilder().build());
 		setYear(getYearDTOBuilder().build());
 	}
@@ -57,20 +54,31 @@ public final class BudgetDTO {
 		this.year = getDefaultIfNull(year, getYearDTOBuilder().build());
 	}
 
+	public static final BudgetDTO create(final String id, final PersonDTO persona,
+			final YearDTO year) {
 
+		return new BudgetDTO(getUUIDFromString(id), persona, year);
+	}
 
-	public static final BudgetDTO create(final UUID id, final PersonDTO persona, final YearDTO year) {
-		
+	public static final BudgetDTO create( final PersonDTO persona,
+			final YearDTO year) {
+
 		return new BudgetDTO(UUID.randomUUID(), persona, year);
 	}
-	
+
+	public static final BudgetDTO create(final UUID id, final PersonDTO persona,
+			final YearDTO year) {
+
+		return new BudgetDTO(getDefaultUUID(id), persona, year);
+	}
+
 	public final String getIdAsString() {
 		return getUUIDAsString(getId());
 	}
 
-	public static BudgetDTO create(final String id, PersonDTO personTmp, YearDTO yearTmp) {
-		
+	public static BudgetDTO create() {
+
 		return new BudgetDTO();
 	}
 
-}                                                                                                                                      //a partir de 6:30 empieza el compartido de este preyecto y los comprate Steven
+} // a partir de 6:30 empieza el compartido de este preyecto y los comprate Steven

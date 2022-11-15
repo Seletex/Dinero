@@ -1,6 +1,6 @@
 package edu.uco.budget.service.usecase.person.implementation;
 
-import java.sql.SQLException;
+
 import java.util.List;
 import java.util.UUID;
 
@@ -27,7 +27,7 @@ private final DAOFactory factory;
 		if(!results.isEmpty()) {
 			result = results.get(0);
 		}
-		return null;
+		return result;
 	}
 
 }

@@ -2,11 +2,11 @@ package edu.uco.budget.service.usecase.year.implementation;
 
 import java.util.List;
 
-import edu.uco.budget.crosscutting.helper.DateHelper;
-import edu.uco.budget.crosscutting.helper.UUIDHelper;
 import edu.uco.budget.data.daofactory.DAOFactory;
 import edu.uco.budget.domain.YearDTO;
 import edu.uco.budget.service.usecase.year.FindNextYearUseCase;
+import edu.uco.inventario.crosscutting.helper.DateHelper;
+import edu.uco.inventario.crosscutting.helper.UUIDHelper;
 
 public class FindNextYearUseCaseImpl implements FindNextYearUseCase{
 

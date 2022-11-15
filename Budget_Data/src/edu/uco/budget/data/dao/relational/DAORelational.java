@@ -1,9 +1,10 @@
 package edu.uco.budget.data.dao.relational;
 
+import static edu.uco.inventario.crosscutting.helper.SqlConnectionHelper.connectionIsOpen;
+
 import java.sql.Connection;
 
-import static edu.uco.budget.crosscutting.helper.SqlConnectionHelper.connectionIsOpen;
-import edu.uco.budget.crosscutting.messages.Messages;
+import edu.uco.inventario.crosscutting.messages.Messages;
 
 public class DAORelational {
 

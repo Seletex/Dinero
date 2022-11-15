@@ -5,7 +5,7 @@ import java.util.UUID;
 import edu.uco.budget.domain.BudgetDTO;
 import edu.uco.budget.domain.PersonDTO;
 import edu.uco.budget.domain.YearDTO;
-import static edu.uco.budget.domain.BudgetDTO.create;
+
 
 public final class BudgetDTOBuilder {
 
@@ -36,7 +36,7 @@ public final class BudgetDTOBuilder {
 	
 
 	public BudgetDTO build() {
-		return create(id, persona, year);
+		return BudgetDTO.create(id, persona, year);
 
 	}
 	

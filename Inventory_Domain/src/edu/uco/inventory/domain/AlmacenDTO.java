@@ -7,6 +7,7 @@ import static edu.uco.inventory.crosscutting.helper.StringHelper.applyTrim;
 import static edu.uco.inventory.crosscutting.helper.UUIDHelper.getDefaultUUID;
 import static edu.uco.inventory.crosscutting.helper.UUIDHelper.getNewUUID;
 
+
 import java.util.UUID;
 
 public class AlmacenDTO {
@@ -19,7 +20,7 @@ public class AlmacenDTO {
 	public AlmacenDTO() {
 		setId(getNewUUID());
 		setNombre(EMPTY);
-		setCiudad(CiudadDTO.create(getNewUUID(), EMPTY, null));
+		setCiudad(getCiudadDTOBuilder().build());
 		setDescripcion(EMPTY);
 		setDireccion(EMPTY);
 	}

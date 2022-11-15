@@ -10,9 +10,10 @@ import edu.uco.inventory.domain.DepartamentoDTO;
 
 public class CiudadDTOBuilder {
 
-	private UUID id;
-	private String nombre;
+	   
+	private  String nombre;
 	private DepartamentoDTO departamento;
+	private UUID id; // se usa en set id pero me pide que lo borre
 
 	private CiudadDTOBuilder() {
 		super();
@@ -40,6 +41,11 @@ public class CiudadDTOBuilder {
 	public CiudadDTO build() {
 		return create(id, nombre, departamento);
 	}
+	
+	public static final CiudadDTOBuilder getPersonDTOBuilder() {
+		return new CiudadDTOBuilder();
+	}
+	
 
 	
 }

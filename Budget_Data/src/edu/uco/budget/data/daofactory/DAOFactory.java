@@ -2,8 +2,6 @@ package edu.uco.budget.data.daofactory;
 
 import java.sql.Connection;
 
-import edu.uco.budget.crosscutting.helper.SqlConnectionHelper;
-import edu.uco.budget.crosscutting.messages.Messages;
 import edu.uco.budget.data.dao.BudgetDAO;
 import edu.uco.budget.data.dao.PersonDAO;
 import edu.uco.budget.data.dao.YearDAO;
@@ -11,6 +9,8 @@ import edu.uco.budget.data.dao.relational.sqlserver.BudgetSqlServerDAO;
 import edu.uco.budget.data.dao.relational.sqlserver.PersonSqlServerDAO;
 import edu.uco.budget.data.dao.relational.sqlserver.YearSqlServerDAO;
 import edu.uco.budget.data.enumeration.DAOFactoryType;
+import edu.uco.inventario.crosscutting.helper.SqlConnectionHelper;
+import edu.uco.inventario.crosscutting.messages.Messages;
 
 public abstract class DAOFactory {
 	Connection connection = null;

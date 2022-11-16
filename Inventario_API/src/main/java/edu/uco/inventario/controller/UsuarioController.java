@@ -11,40 +11,40 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import edu.uco.budget.controller.response.Response;
-import edu.uco.budget.controller.validator.Validator;
-import edu.uco.budget.controller.validator.budget.CreateBudgetValidator;
-import edu.uco.budget.crosscutting.exception.BudgetCustomException;
-import edu.uco.budget.crosscutting.messages.Message;
-import edu.uco.budget.domain.BudgetDTO;
-import edu.uco.budget.service.command.CreateBudgetCommand;
-import edu.uco.budget.service.command.implementation.CreateBudgetCommandImpl;
-import edu.
+import edu.uco.inventario.controller.response.Response;
+import edu.uco.inventario.controller.validator.Validator;
+import edu.uco.inventario.controller.validator.usuario.CreateUsuarioValidator;
+import edu.uco.inventario.crosscutting.exception.BudgetCustomException;
+import edu.uco.inventario.crosscutting.messages.Message;
+
+import edu.uco.inventario.service.command.implementation.CreateUsuarioCommandImpl;
+import edu.uco.inventario.domain.UsuarioDTO;
+import edu.uco.inventario.service.command.CreateUsuarioCommand;
 
 @RestController
-@RequestMapping("/api/budget")
+@RequestMapping("/api/usuario")
 public class UsuarioController {
 	
-	private CreateBudgetCommand createBudgetCommand = new CreateBudgetCommandImpl();
+	private CreateUsuarioCommand createBudgetCommand = new CreateUsuarioCommandImpl();
 
 	@GetMapping("/dummy")
-	public BudgetDTO holaMundo() {
-		return new BudgetDTO();
+	public UsuarioDTO holaMundo() {
+		return new UsuarioDTO();
 	}
 
 	@PostMapping
-	public ResponseEntity<Response<BudgetDTO>> create(@RequestBody BudgetDTO budget) {
+	public ResponseEntity<Response<UsuarioDTO>> create(@RequestBody UsuarioDTO budget) {
 		
-		Response<BudgetDTO> response = new Response<>();
+		Response<UsuarioDTO> response = new Response<>();
 		HttpStatus httpStatus = HttpStatus.OK;
 		
 		
 		try {
-			Validator<BudgetDTO> validator = new CreateBudgetValidator();
+			Validator<UsuarioDTO> validator = new CreateUsuarioValidator();
 			List<Message> messages = validator.validate(budget);
 			if(messages.isEmpty()) {
 				createBudgetCommand.execute(budget);
-				final List<BudgetDTO> data = new ArrayList<>();
+				final List<UsuarioDTO> data = new ArrayList<>();
 				data.add(budget);
 				response.setData(data);
 				response.addSuccessMessage("The budget has been created succesfully");

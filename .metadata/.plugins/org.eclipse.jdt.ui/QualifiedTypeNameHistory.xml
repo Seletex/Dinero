@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="edu.uco.budget.data.daofactory.DAOFactory"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.DateHelper"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.year.implementation.FindNextYearUseCaseImpl"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.domain.YearDTO"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.person.FindPersonExistUseCase"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.messages.Messages.ServiceCustomException"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.service.ServiceCustomException"/>
-    <fullyQualifiedTypeName name="edu.uco.inventory.crosscutting.helper.UUIDHelper"/>
-    <fullyQualifiedTypeName name="edu.uco.inventory.crosscutting.helper.StringHelper"/>
-    <fullyQualifiedTypeName name="edu.uco.inventory.domain.CiudadDTO"/>
-    <fullyQualifiedTypeName name="edu.uco.inventory.domain.builder.CiudadDTOBuilder"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.helper.StringHelper"/>
@@ -38,12 +23,10 @@
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.TipoUnidadDTOBuilder"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.UnidadMedidaDTO"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.TipoUnidadDTO"/>
-    <fullyQualifiedTypeName name="edu.uco.inventario.domain.EntradaDTO"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.DepartamentoDTOBuilder"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.crosscutting.helper.NumberHelper"/>
     <fullyQualifiedTypeName name="javax.swing.table.TableStringConverter"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.PedidoDTO"/>
-    <fullyQualifiedTypeName name="edu.uco.inventario.domain.UsuarioDTO"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.UsuarioDTOBuilder"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.PaisDTOBuilder"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.CuidadoDTOBuilder"/>
@@ -59,5 +42,22 @@
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.EstanteriaDTO"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.SalidaDTO"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
+    <fullyQualifiedTypeName name="java.util.IllegalFormatException"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalCallerException"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.data.dao.relational.sqlserver.UsuarioSqlServerDAO"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.EntradaDTO"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.data.dao.UsuarioDAO"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.service.usecase.usuario.FindUsuarioPorId"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.data.daofactory.DAOFactory"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.service.usecase.usuario.CreateUsuarioUseCase"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.service.usecase.usuario.implementation.CreateUsuarioUseCaseImpl"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.service.command.CreateUsuarioCommand"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.UsuarioDTO"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.service.command.implementation.CreateUsuarioCommandImpl"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.controller.validator.usuario.CreateUsuarioValidator"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.controller.validator.Validator"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.controller.response.Response"/>
 </qualifiedTypeNameHistroy>

@@ -3,8 +3,8 @@ package edu.uco.inventario.crosscutting.helper;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import edu.uco.budget.crosscutting.messages.Messages;
 import edu.uco.inventario.crosscutting.exception.data.CrosscuttingCustomException;
+import edu.uco.inventario.crosscutting.messages.Messages;
 
 public final class SqlConnectionHelper {
 

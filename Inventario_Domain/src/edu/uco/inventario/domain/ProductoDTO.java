@@ -2,6 +2,7 @@ package edu.uco.inventario.domain;
 
 import static edu.uco.inventario.crosscutting.helper.NumberHelper.ZERO;
 import static edu.uco.inventario.crosscutting.helper.NumberHelper.isLessThan;
+import static edu.uco.inventario.crosscutting.helper.ObjectHelper.getDefaultIfNull;
 import static edu.uco.inventario.crosscutting.helper.StringHelper.EMPTY;
 import static edu.uco.inventario.crosscutting.helper.StringHelper.applyTrim;
 import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getDefaultUUID;
@@ -82,7 +83,7 @@ public class ProductoDTO {
 	}
 
 	public final void setProveedor(final ProveedorDTO proveedor) {
-		this.proveedor = proveedor;
+		this.proveedor = getDefaultIfNull(proveedor, getProveedorDTOBuilder().build());
 	}
 
 	public final short getCantidad() {
@@ -106,7 +107,7 @@ public class ProductoDTO {
 	}
 
 	public final void setCuidado(final CuidadoDTO cuidado) {
-		this.cuidado = cuidado;
+		this.cuidado = getDefaultIfNull(cuidado, getCuidadoDTOBuilder().build());
 	}
 
 	public final TipoUnidadDTO getUnidad() {
@@ -114,7 +115,7 @@ public class ProductoDTO {
 	}
 
 	public final void setUnidad(final TipoUnidadDTO unidad) {
-		this.unidad = unidad;
+		this.unidad = getDefaultIfNull(unidad, getTipoUnidadDTOBuilder().build());
 	}
 
 	public static final ProductoDTO create(final String nombre, final String descripcion,

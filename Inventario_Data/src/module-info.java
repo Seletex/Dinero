@@ -1,2 +1,0 @@
-module Inventario_Data {
-}

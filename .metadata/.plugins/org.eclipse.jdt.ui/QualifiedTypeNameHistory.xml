@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.person.CreatePersonUseCase"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.person.implementation.CreatePersonUseCaseImpl"/>
-    <fullyQualifiedTypeName name="edu.uco.inventory.domain.builder.DepartamentoDTOBuilder"/>
-    <fullyQualifiedTypeName name="edu.uco.inventory.domain.AlmacenDTO"/>
-    <fullyQualifiedTypeName name="edu.uco.inventory.domain.builder.AlmacenDTOBuilder"/>
-    <fullyQualifiedTypeName name="edu.uco.inventory.domain.SeccionDTO"/>
-    <fullyQualifiedTypeName name="edu.uco.inventory.domain.CiudadoDTO"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.crosscutting.exception.BudgetCustomException"/>
-    <fullyQualifiedTypeName name="edu.uco.budget.service.usecase.budget.FindNextYearUseCase"/>
     <fullyQualifiedTypeName name="edu.uco.budget.data.daofactory.DAOFactory"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
@@ -42,22 +33,31 @@
     <fullyQualifiedTypeName name="javax.print.attribute.standard.DateTimeAtCreation"/>
     <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="java.util.DoubleSummaryStatistics"/>
-    <fullyQualifiedTypeName name="edu.uco.inventario.domain.ProductoDTO"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.ProveedorDTO"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.CuidadoDTO"/>
-    <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.CuidadoDTOBuilder"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.TipoUnidadDTOBuilder"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.UnidadMedidaDTO"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.TipoUnidadDTO"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.EntradaDTO"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.DepartamentoDTOBuilder"/>
-    <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.ProveedorDTOBuilder"/>
-    <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.ProductoDTOBuilder"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.crosscutting.helper.NumberHelper"/>
     <fullyQualifiedTypeName name="javax.swing.table.TableStringConverter"/>
-    <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.PedidoDTOBuilder"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.PedidoDTO"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.UsuarioDTO"/>
     <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.UsuarioDTOBuilder"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.PaisDTOBuilder"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.CuidadoDTOBuilder"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.ProveedorDTOBuilder"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.UnidadMedidaDTOBuilder"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.SeccionDTO"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.SeccionDTOBuilder"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.PedidoDTOBuilder"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.ProductoDTOBuilder"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.ProductoDTO"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.builder.EstanteriaDTOBuilder"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.EstanteriaDTO"/>
+    <fullyQualifiedTypeName name="edu.uco.inventario.domain.SalidaDTO"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 </qualifiedTypeNameHistroy>

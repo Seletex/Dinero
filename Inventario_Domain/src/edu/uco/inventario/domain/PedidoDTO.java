@@ -41,7 +41,7 @@ public class PedidoDTO {
 	}
 
 	public final void setId(UUID id) {
-		this.id = id;
+		this.id = getDefaultUUID(id);
 	}
 
 	public final ProductoDTO getProducto() {

@@ -1,5 +1,8 @@
 package edu.uco.inventario.domain;
 
+
+import static edu.uco.inventario.domain.builder.PaisDTOBuilder.getPaisDTOBuilder;
+import static edu.uco.inventario.crosscutting.helper.ObjectHelper.getDefaultIfNull;
 import static edu.uco.inventario.crosscutting.helper.StringHelper.EMPTY;
 import static edu.uco.inventario.crosscutting.helper.StringHelper.applyTrim;
 import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getDefaultUUID;
@@ -34,7 +37,7 @@ public class DepartamentoDTO {
 	}
 
 	public final void setPais(PaisDTO pais) {
-		this.pais = pais;
+		this.pais = getDefaultIfNull(pais, getPaisDTOBuilder().build());
 	}
 
 	public final UUID getId() {

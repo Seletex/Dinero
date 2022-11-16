@@ -4,11 +4,10 @@ import static edu.uco.inventario.domain.UsuarioDTO.create;
 
 import java.util.UUID;
 
-import edu.uco.inventario.domain.PaisDTO;
 import edu.uco.inventario.domain.UsuarioDTO;
 
 public class UsuarioDTOBuilder {
-	
+
 	private UUID id;
 	private String nombre;
 	private String apellido;
@@ -37,7 +36,6 @@ public class UsuarioDTOBuilder {
 		return this;
 	}
 
-	
 	public final UsuarioDTOBuilder setApellido(String apellido) {
 		this.apellido = apellido;
 		return this;

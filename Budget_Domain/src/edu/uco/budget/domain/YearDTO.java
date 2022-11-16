@@ -1,11 +1,11 @@
 package edu.uco.budget.domain;
 
-import static edu.uco.inventario.crosscutting.helper.NumberHelper.ZERO;
-import static edu.uco.inventario.crosscutting.helper.NumberHelper.isLessThan;
-import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getDefaultUUID;
-import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getNewUUID;
-import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getUUIDAsString;
-import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getUUIDFromString;
+import static edu.uco.budget.crosscutting.helper.NumberHelper.ZERO;
+import static edu.uco.budget.crosscutting.helper.NumberHelper.isLessThan;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getDefaultUUID;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getNewUUID;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDAsString;
+import static edu.uco.budget.crosscutting.helper.UUIDHelper.getUUIDFromString;
 
 import java.util.UUID;
 

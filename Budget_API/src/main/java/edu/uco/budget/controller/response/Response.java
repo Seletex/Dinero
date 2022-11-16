@@ -3,8 +3,8 @@ package edu.uco.budget.controller.response;
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.uco.inventario.crosscutting.helper.ObjectHelper;
-import edu.uco.inventario.crosscutting.messages.Message;
+import edu.uco.budget.crosscutting.helper.ObjectHelper;
+import edu.uco.budget.crosscutting.messages.Message;
 
 public class Response<T>{
 	

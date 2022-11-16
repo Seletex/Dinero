@@ -14,7 +14,7 @@ public class UnidadMedidaDTOBuilder {
 		super();
 	}
 
-	public static final UnidadMedidaDTOBuilder getUnidad_MedidaDTOBuilder() {
+	public static final UnidadMedidaDTOBuilder getUnidadMedidaDTOBuilder() {
 		return new UnidadMedidaDTOBuilder();
 	}
 

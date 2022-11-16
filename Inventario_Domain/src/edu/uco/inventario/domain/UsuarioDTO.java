@@ -84,6 +84,14 @@ public class UsuarioDTO {
 		return UUIDHelper.isDefualtUUID(id);
 		//50 minute
 	}
+
+	public static final UsuarioDTO create() {
+		return new UsuarioDTO(UUID.randomUUID(), EMPTY, EMPTY, EMPTY);
+	}
+	
+	public static final UsuarioDTO create(final UUID id) {
+		return new UsuarioDTO(getDefaultUUID(id), EMPTY, EMPTY, EMPTY);
+	}
 	
 	
 

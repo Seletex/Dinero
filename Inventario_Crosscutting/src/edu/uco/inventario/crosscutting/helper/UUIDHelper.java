@@ -4,7 +4,7 @@ import static edu.uco.inventario.crosscutting.helper.ObjectHelper.getDefaultIfNu
 
 import java.util.UUID;
 
-import edu.uco.budget.crosscutting.messages.Messages;
+import edu.uco.inventario.crosscutting.messages.Messages;
 import edu.uco.inventario.crosscutting.exception.data.CrosscuttingCustomException;
 
 public final class UUIDHelper {
@@ -38,7 +38,7 @@ public final class UUIDHelper {
 	public static final UUID getUUIDFromString(final String value) {
 		try {
 			return UUID.fromString(StringHelper.getDefaultString(value, DEFAULT_UUID_AS_STRING));
-		}catch( final IllegalArgumentException exception) {
+		}catch( final IllegalCallerException exception) {
 			throw CrosscuttingCustomException.createTechnicalException(Messages.UUIDHelper.TECHNICAL_UUID_FROM_STRING_INVALID,exception);
 					
 		}catch( final Exception exception) {

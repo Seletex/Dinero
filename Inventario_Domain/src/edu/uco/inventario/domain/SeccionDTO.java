@@ -19,7 +19,7 @@ public class SeccionDTO {
 	public SeccionDTO() {
 		setId(getNewUUID());
 		setNombre(EMPTY);
-		setAlmacen(AlmacenDTO.create(getNewUUID(), EMPTY, null, null, null));
+		setAlmacen(getAlmacenDTOBuilder().build());
 		setDescripcion(EMPTY);
 
 	}

@@ -1,11 +1,13 @@
 package edu.uco.inventario.domain;
 
+import static edu.uco.inventario.crosscutting.helper.ObjectHelper.getDefaultIfNull;
 import static edu.uco.inventario.crosscutting.helper.StringHelper.EMPTY;
 import static edu.uco.inventario.crosscutting.helper.StringHelper.applyTrim;
 import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getDefaultUUID;
 import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getNewUUID;
 import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getUUIDAsString;
 import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getUUIDFromString;
+import static edu.uco.inventario.domain.builder.UnidadMedidaDTOBuilder.getUnidadMedidaDTOBuilder;
 
 import java.util.UUID;
 
@@ -34,7 +36,7 @@ public class TipoUnidadDTO {
 	}
 
 	public final void setMedida(UnidadMedidaDTO medida) {
-		this.medida = medida;
+		this.medida = (UnidadMedidaDTO) getDefaultIfNull(medida, getUnidadMedidaDTOBuilder().build());
 	}
 
 	public final UUID getId() {

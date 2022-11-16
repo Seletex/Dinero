@@ -1,6 +1,6 @@
 package edu.uco.budget.data.dao.relational.sqlserver;
 
-import static edu.uco.inventario.crosscutting.helper.StringHelper.getUUIDAsString;
+import static edu.uco.budget.crosscutting.helper.StringHelper.getUUIDAsString;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,19 +10,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import edu.uco.budget.crosscutting.exception.data.DataCustomException;
+import edu.uco.budget.crosscutting.helper.ObjectHelper;
+import edu.uco.budget.crosscutting.helper.UUIDHelper;
+import edu.uco.budget.crosscutting.messages.Messages;
 import edu.uco.budget.data.dao.PersonDAO;
 import edu.uco.budget.data.dao.relational.DAORelational;
 import edu.uco.budget.domain.PersonDTO;
-import edu.uco.inventario.crosscutting.exception.data.DataCustomException;
-import edu.uco.inventario.crosscutting.helper.ObjectHelper;
-import edu.uco.inventario.crosscutting.helper.UUIDHelper;
-import edu.uco.inventario.crosscutting.messages.Messages;
 
 public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 
 	public PersonSqlServerDAO(final Connection connection) {
 		super(connection);
-		// TODO Auto-generated constructor stub
+
 	}
 
 	@Override
@@ -77,12 +77,12 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 	private final void createWhere(final StringBuilder sqlBuilder, final PersonDTO person,
 			final List<Object> parameters) {
 		
-		if (!ObjectHelper.isNull(person)) {
-			if (!UUIDHelper.isDefualtUUID(person.getId())) {
+		if (!ObjectHelper.isNull(person)&&!UUIDHelper.isDefualtUUID(person.getId())) {
+			
 				sqlBuilder.append("WHERE Bu.id = ? ");
 				
 				parameters.add(person.getIdAsString());
-			}
+			
 
 		}
 	}
@@ -196,7 +196,7 @@ public class PersonSqlServerDAO extends DAORelational implements PersonDAO {
 
 	@Override
 	public final void update(PersonDTO person) {
-		final var sql = "UPDATE YEAR SET idYearNumber=? WHERE id=?";
+		final var sql = "UPDATE YEAR SET idYearNumber=?, WHERE id=?";
 
 		try (final var preparedStatement = getConnection().prepareStatement(sql)) {
 

@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.UUID;
 
 import edu.uco.budget.controller.validator.Validator;
+import edu.uco.budget.crosscutting.helper.UUIDHelper;
+import edu.uco.budget.crosscutting.messages.Message;
 //import edu.uco.budget.crosscutting.messages.Messages;
 import edu.uco.budget.domain.BudgetDTO;
-import edu.uco.inventario.crosscutting.helper.UUIDHelper;
-import edu.uco.inventario.crosscutting.messages.Message;
 
 public class CreateBudgetValidator implements Validator<BudgetDTO> {
 

@@ -2,10 +2,10 @@ package edu.uco.inventario.controller.validator;
 
 import java.util.List;
 
-import edu.uco.inventario.crosscutting.messages.Message;
+import edu.uco.inventario.crosscutting.messages.MessageUser;
 
 public interface Validator<T> {
 
 	
-	List<Message> validate(T dto);
+	List<MessageUser> validate(T dto);
 }

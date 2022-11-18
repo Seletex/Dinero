@@ -5,9 +5,7 @@ import java.util.UUID;
 
 import edu.uco.inventario.data.daofactory.DAOFactory;
 import edu.uco.inventario.domain.CuidadoDTO;
-import edu.uco.inventario.domain.PaisDTO;
 import edu.uco.inventario.service.usecase.cuidado.FindCuidadoPorId;
-import edu.uco.inventario.service.usecase.pais.FindPaisPorId;
 
 public class FindCuidadoPorIdImpl implements FindCuidadoPorId {
 

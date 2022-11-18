@@ -15,59 +15,58 @@ import edu.uco.inventario.controller.response.Response;
 import edu.uco.inventario.controller.validator.Validator;
 import edu.uco.inventario.controller.validator.usuario.CreateUsuarioValidator;
 import edu.uco.inventario.crosscutting.exception.BudgetCustomException;
-import edu.uco.inventario.crosscutting.messages.Message;
-
-import edu.uco.inventario.service.command.implementation.CreateUsuarioCommandImpl;
+import edu.uco.inventario.crosscutting.messages.MessageUser;
 import edu.uco.inventario.domain.UsuarioDTO;
 import edu.uco.inventario.service.command.CreateUsuarioCommand;
+import edu.uco.inventario.service.command.implementation.CreateUsuarioCommandImpl;
 
 @RestController
 @RequestMapping("/api/usuario")
 public class UsuarioController {
-	
-	private CreateUsuarioCommand createBudgetCommand = new CreateUsuarioCommandImpl();
 
-	@GetMapping("/dummy")
+	private CreateUsuarioCommand createUsuarioCommand = new CreateUsuarioCommandImpl();
+
+	@GetMapping("/user")
 	public UsuarioDTO holaMundo() {
 		return new UsuarioDTO();
 	}
 
 	@PostMapping
 	public ResponseEntity<Response<UsuarioDTO>> create(@RequestBody UsuarioDTO budget) {
-		
+
 		Response<UsuarioDTO> response = new Response<>();
 		HttpStatus httpStatus = HttpStatus.OK;
-		
-		
+
 		try {
 			Validator<UsuarioDTO> validator = new CreateUsuarioValidator();
-			List<Message> messages = validator.validate(budget);
-			if(messages.isEmpty()) {
-				createBudgetCommand.execute(budget);
+			List<MessageUser> messages = validator.validate(budget);
+			if (messages.isEmpty()) {
+				createUsuarioCommand.execute(budget);
 				final List<UsuarioDTO> data = new ArrayList<>();
 				data.add(budget);
 				response.setData(data);
 				response.addSuccessMessage("The budget has been created succesfully");
-			}else {
+			} else {
 				httpStatus = HttpStatus.BAD_REQUEST;
-				
+
 			}
-			
-			// Ok 200
-		}catch(BudgetCustomException exception) {
+
+		} catch (BudgetCustomException exception) {
 			httpStatus = HttpStatus.BAD_REQUEST;
-			if(exception.isTchnicalException()) {
-				response.addSuccessMessage("There was an error trying to create the budget. Please try again ....");
-			}else {
+			if (exception.isTchnicalException()) {
+				response.addSuccessMessage(
+						"There was an error trying to create the budget. Please try again ....");
+			} else {
 				response.addErrorMesssge(exception.getMessage());
 			}
-				
-		}catch(Exception exception) {
+
+		} catch (Exception exception) {
 			httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
-			response.addFatalMessage("There was an unexpected error trying to create the budget. Please try again ....");
+			response.addFatalMessage(
+					"There was an unexpected error trying to create the budget. Please try again ....");
 		}
-		
-		return new ResponseEntity<>(response,httpStatus);
+
+		return new ResponseEntity<>(response, httpStatus);
 	}
 
 }

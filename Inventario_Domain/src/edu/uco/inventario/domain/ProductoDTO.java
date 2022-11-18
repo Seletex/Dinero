@@ -54,6 +54,8 @@ public class ProductoDTO {
 
 	}
 
+	
+
 	public final UUID getId() {
 		return id;
 	}
@@ -93,6 +95,8 @@ public class ProductoDTO {
 	public final void setCantidad(final short cantidad) {
 		this.cantidad = (isLessThan(cantidad, ZERO) ? ZERO : cantidad);
 	}
+	
+	
 
 	public final String getContenido() {
 		return contenido;
@@ -149,5 +153,6 @@ public class ProductoDTO {
 		return UUIDHelper.isDefualtUUID(id);
 		// 50 minute
 	}
+
 
 }

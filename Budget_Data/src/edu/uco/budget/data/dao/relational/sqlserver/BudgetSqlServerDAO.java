@@ -60,9 +60,7 @@ public class BudgetSqlServerDAO extends DAORelational implements BudgetDAO {
 		createOrderBy(sqlBuilder);
 		return prepareAndExecuteQuery(sqlBuilder,paramenters);
 		
-//private final void createWheres(final StringBuilder sqlBuilder,final  BudgetDTO budget, final List<Object> parameters) {
 
-//}
 
 	}
 

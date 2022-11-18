@@ -5,6 +5,8 @@ import static edu.uco.inventario.crosscutting.helper.StringHelper.EMPTY;
 import static edu.uco.inventario.crosscutting.helper.StringHelper.applyTrim;
 import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getDefaultUUID;
 import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getNewUUID;
+import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getUUIDAsString;
+import static edu.uco.inventario.crosscutting.helper.UUIDHelper.getUUIDFromString;
 import static edu.uco.inventario.domain.builder.AlmacenDTOBuilder.getAlmacenDTOBuilder;
 
 import java.util.UUID;
@@ -65,8 +67,24 @@ public class SeccionDTO {
 		this.nombre = applyTrim(nombre);
 	}
 
+	
+	
+	public static final SeccionDTO create(final String nombre,
+			final AlmacenDTO almacen, final String descripcion) {
+		return new SeccionDTO(UUID.randomUUID(), nombre, almacen, descripcion);
+	}
+	
+	public static final SeccionDTO create(final String id, final String nombre,
+			final AlmacenDTO almacen, final String descripcion) {
+		return new SeccionDTO(getUUIDFromString(id),nombre, almacen, descripcion);
+	}
+	
 	public static final SeccionDTO create(final UUID id, final String nombre,
 			final AlmacenDTO almacen, final String descripcion) {
-		return new SeccionDTO(id, nombre, almacen, descripcion);
+		return new SeccionDTO(getDefaultUUID(id), nombre, almacen, descripcion);
+	}
+	
+	public final String getIdAsString() {
+		return getUUIDAsString(getId());
 	}
 }

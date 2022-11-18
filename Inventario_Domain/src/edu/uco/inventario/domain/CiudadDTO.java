@@ -36,7 +36,7 @@ public class CiudadDTO {
 		setDepartamento(departamento);
 	}
 
-	public final DepartamentoDTO getPais() {
+	public final DepartamentoDTO getDepartamento() {
 		return departamento;
 	}
 

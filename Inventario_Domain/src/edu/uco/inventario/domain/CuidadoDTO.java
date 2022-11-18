@@ -55,4 +55,12 @@ public class CuidadoDTO {
 	public final String getIdAsString() {
 		return getUUIDAsString(getId());
 	}
+	
+	public static final CuidadoDTO create() {
+		return new CuidadoDTO(UUID.randomUUID(), EMPTY);
+	}
+	
+	public static final CuidadoDTO create(final UUID id) {
+		return new CuidadoDTO(getDefaultUUID(id), EMPTY);
+	}
 }

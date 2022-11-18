@@ -91,5 +91,7 @@ public class AlmacenDTO {
 	public final String getIdAsString() {
 		return getUUIDAsString(getId());
 	}
+	
+	
 
 }

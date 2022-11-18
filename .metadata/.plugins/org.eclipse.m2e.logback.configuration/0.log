@@ -7201,3 +7201,976 @@
 2022-11-17 22:41:14,913 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
 2022-11-17 22:41:15,030 [Worker-242: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-11-17 22:41:15,032 [Worker-242: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 12:06:56,322 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-18 12:08:34,521 [Worker-2: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Domain: edu.uco.budget:Budget_Domain:0.0.1-SNAPSHOT with classifier  to /Budget_Domain/target/classes
+2022-11-18 12:08:34,524 [Worker-2: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Crosscutting: edu.uco.budget:Budget_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Budget_Crosscutting/target/classes
+2022-11-18 12:08:34,524 [Worker-2: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Service: edu.uco.budget:Budget_Service:0.0.1-SNAPSHOT with classifier  to /Budget_Service/target/classes
+2022-11-18 12:08:34,524 [Worker-2: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Data: edu.uco.budget:Budget_Data:0.0.1-SNAPSHOT with classifier  to /Budget_Data/target/classes
+2022-11-18 12:18:14,825 [Worker-10: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Domain: edu.uco.inventario:Inventario_Domain:0.0.1-SNAPSHOT with classifier  to /Inventario_Domain/target/classes
+2022-11-18 12:18:14,838 [Worker-10: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Crosscutting: edu.uco.inventario:Inventario_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Inventario_Crosscutting/target/classes
+2022-11-18 12:18:24,080 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:18:24,082 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 12:18:24,093 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:18:24,094 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 12:29:36,050 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-18 12:32:25,092 [Worker-4: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Crosscutting: edu.uco.inventario:Inventario_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Inventario_Crosscutting/target/classes
+2022-11-18 12:32:36,873 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:32:36,883 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\main\resources
+2022-11-18 12:32:36,892 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:32:36,894 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\test\resources
+2022-11-18 12:32:40,922 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Domain: edu.uco.inventario:Inventario_Domain:0.0.1-SNAPSHOT with classifier  to /Inventario_Domain/target/classes
+2022-11-18 12:32:40,923 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Crosscutting: edu.uco.inventario:Inventario_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Inventario_Crosscutting/target/classes
+2022-11-18 12:32:40,941 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:32:40,943 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 12:32:40,971 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:32:40,988 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 12:42:08,188 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:42:08,212 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 12:42:08,217 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:42:08,219 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 12:42:28,934 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:42:28,937 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 12:42:28,941 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:42:28,943 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 12:42:50,856 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:42:50,857 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 12:42:50,865 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:42:50,869 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 12:43:33,392 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:43:33,394 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 12:43:33,399 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:43:33,400 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 12:43:52,897 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:43:52,899 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 12:43:52,904 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:43:52,920 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 12:47:36,005 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:47:36,008 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 12:47:36,016 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:47:36,017 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 12:48:14,226 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:48:14,228 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 12:48:14,233 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 12:48:14,234 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 13:08:00,621 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-18 13:08:02,684 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2022-11-18 13:11:56,613 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Domain: edu.uco.inventario:Inventario_Domain:0.0.1-SNAPSHOT with classifier  to /Inventario_Domain/target/classes
+2022-11-18 13:11:56,626 [Worker-5: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Crosscutting: edu.uco.inventario:Inventario_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Inventario_Crosscutting/target/classes
+2022-11-18 13:11:59,345 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:11:59,346 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 13:11:59,365 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:11:59,368 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 13:12:02,335 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:12:02,337 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 13:12:02,342 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:12:02,367 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 13:17:12,692 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:17:12,694 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 13:17:12,699 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:17:12,701 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 13:18:47,115 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:18:47,117 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 13:18:47,121 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:18:47,123 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 13:20:53,460 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:20:53,482 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 13:20:53,486 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:20:53,488 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 13:30:52,660 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:30:52,662 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 13:30:52,676 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:30:52,677 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 13:32:36,763 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:32:36,765 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 13:32:36,784 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:32:36,787 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 13:33:28,981 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:33:28,982 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 13:33:28,989 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:33:28,990 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 13:33:31,510 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:33:31,514 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 13:33:31,526 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:33:31,527 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 13:34:12,941 [Worker-15: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Domain: edu.uco.inventario:Inventario_Domain:0.0.1-SNAPSHOT with classifier  to /Inventario_Domain/target/classes
+2022-11-18 13:34:12,941 [Worker-15: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Crosscutting: edu.uco.inventario:Inventario_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Inventario_Crosscutting/target/classes
+2022-11-18 13:34:12,941 [Worker-15: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Service: edu.uco.inventario:Inventario_Service:0.0.1-SNAPSHOT with classifier  to /Inventario_Service/target/classes
+2022-11-18 13:34:12,950 [Worker-15: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Data: edu.uco.inventario:Inventario_Data:0.0.1-SNAPSHOT with classifier  to /Inventario_Data/target/classes
+2022-11-18 13:34:20,907 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:34:20,908 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:34:20,915 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:34:20,998 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:34:21,023 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:34:21,023 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:34:21,023 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:34:50,013 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:34:50,014 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:34:50,033 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:34:50,077 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:34:50,088 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:34:50,088 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:34:50,088 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:35:07,482 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:35:07,482 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:35:07,553 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:35:07,602 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:35:07,613 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:35:07,613 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:35:07,617 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:36:34,520 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:36:34,520 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:36:34,525 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:36:34,535 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:36:34,540 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:36:34,540 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:36:34,540 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:36:43,619 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:36:43,619 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:36:43,621 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:36:43,631 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:36:43,639 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:36:43,639 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:36:43,640 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:36:51,748 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:36:51,748 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:36:51,750 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:36:51,769 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:36:51,774 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:36:51,775 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:36:51,775 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:37:01,113 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:37:01,113 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:37:01,115 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:37:01,138 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:37:01,149 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:37:01,149 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:37:01,149 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:37:16,848 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:37:16,848 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:37:16,850 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:37:16,858 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:37:16,867 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:37:16,867 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:37:16,868 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:37:24,938 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:37:24,938 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:37:24,940 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:37:24,948 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:37:25,000 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:37:25,000 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:37:25,000 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:37:37,092 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:37:37,092 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:37:37,094 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:37:37,104 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:37:37,110 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:37:37,110 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:37:37,110 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:37:45,881 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:37:45,881 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:37:45,883 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:37:45,890 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:37:45,899 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:37:45,900 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:37:45,900 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:37:58,047 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:37:58,047 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:37:58,049 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:37:58,057 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:37:58,062 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:37:58,063 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:37:58,063 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:38:04,701 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:38:04,701 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:38:04,703 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:38:04,711 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:38:04,718 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:38:04,718 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:38:04,718 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:38:21,516 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:38:21,517 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:38:21,525 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:38:21,629 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:38:21,636 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:38:21,637 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:38:21,637 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:38:30,200 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:38:30,200 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:38:30,202 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:38:30,210 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:38:30,219 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:38:30,220 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:38:30,220 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:40:55,047 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Domain: edu.uco.inventario:Inventario_Domain:0.0.1-SNAPSHOT with classifier  to /Inventario_Domain/target/classes
+2022-11-18 13:40:55,047 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Crosscutting: edu.uco.inventario:Inventario_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Inventario_Crosscutting/target/classes
+2022-11-18 13:40:55,047 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Data: edu.uco.inventario:Inventario_Data:0.0.1-SNAPSHOT with classifier  to /Inventario_Data/target/classes
+2022-11-18 13:40:55,065 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:40:55,068 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:40:55,072 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:40:55,080 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:41:07,443 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:41:07,445 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:41:07,451 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:41:07,452 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:41:18,849 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:41:18,851 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:41:18,864 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:41:18,866 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:41:56,662 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:41:56,663 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:41:56,667 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:41:56,669 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:42:25,195 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:42:25,197 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:42:25,205 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:42:25,208 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:42:42,423 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:42:42,425 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:42:42,430 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:42:42,431 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:42:47,729 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:42:47,730 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:42:47,732 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 13:42:47,742 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 13:42:47,749 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 13:42:47,749 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 13:42:47,749 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_API\src\test\resources
+2022-11-18 13:43:25,511 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:43:25,513 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:43:25,548 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:43:25,550 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:43:39,666 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:43:39,668 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:43:39,672 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:43:39,674 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:44:35,966 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:44:35,970 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:44:35,978 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:44:35,980 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:44:49,288 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:44:49,294 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:44:49,300 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:44:49,302 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:45:00,380 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:45:00,381 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:45:00,386 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:45:00,387 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:45:10,468 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:45:10,470 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:45:10,475 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:45:10,477 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:45:24,292 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:45:24,294 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:45:24,298 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:45:24,300 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:45:36,200 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:45:36,203 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:45:36,207 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:45:36,209 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:49:01,999 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:49:02,001 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:49:02,005 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:49:02,007 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:49:35,657 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:49:35,658 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:49:35,851 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:49:35,853 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:49:45,560 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:49:45,562 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:49:45,568 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:49:45,570 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:50:42,020 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:50:42,021 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:50:42,099 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:50:42,100 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:50:55,441 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:50:55,444 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:50:55,483 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:50:55,484 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:51:13,168 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:51:13,170 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:51:13,174 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:51:13,176 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:51:29,760 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:51:29,762 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:51:29,766 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:51:29,769 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:52:07,429 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:52:07,431 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:52:07,436 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:52:07,437 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:52:22,681 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:52:22,682 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:52:22,701 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:52:22,706 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:52:35,764 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:52:35,765 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:52:35,769 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:52:35,771 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:52:59,452 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:52:59,484 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:52:59,492 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:52:59,497 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:53:20,413 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:53:20,415 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:53:20,419 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:53:20,421 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:53:33,957 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:53:33,958 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:53:33,964 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:53:33,966 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:54:23,082 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:54:23,084 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:54:23,136 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:54:23,138 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:54:34,968 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:54:34,969 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:54:34,973 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:54:34,974 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:54:46,676 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:54:46,678 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:54:46,828 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:54:46,830 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:55:02,255 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:55:02,257 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:55:02,262 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:55:02,264 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:55:27,401 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:55:27,402 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:55:27,526 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:55:27,528 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:57:05,398 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:57:05,401 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:57:05,410 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:57:05,411 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:57:17,113 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:57:17,115 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:57:17,119 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:57:17,121 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:57:44,963 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:57:44,965 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:57:44,987 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:57:44,989 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:58:05,044 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:58:05,047 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:58:05,061 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:58:05,063 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:58:18,594 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:58:18,596 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:58:18,599 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:58:18,602 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 13:58:23,034 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:58:23,036 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 13:58:23,041 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 13:58:23,043 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:03:12,199 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:03:12,201 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:03:12,211 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:03:12,224 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:03:25,085 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:03:25,087 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:03:25,092 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:03:25,094 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:03:30,047 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:03:30,049 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:03:30,054 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:03:30,056 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:04:15,999 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:04:16,001 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:04:16,005 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:04:16,007 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:05:47,754 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:05:47,757 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:05:47,761 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:05:47,770 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:06:18,736 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:06:18,740 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:06:18,743 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:06:18,746 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:08:24,471 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:08:24,473 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:08:24,476 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:08:24,478 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:08:50,867 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:08:50,868 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:08:50,901 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:08:50,903 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:09:05,899 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:09:05,901 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:09:05,906 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:09:05,928 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:09:17,583 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:09:17,585 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:09:17,589 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:09:17,591 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:09:27,401 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:09:27,405 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:09:27,409 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:09:27,410 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:13:14,460 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:13:14,462 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:13:14,485 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:13:14,490 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:13:24,614 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:13:24,618 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:13:24,691 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:13:24,693 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:13:36,153 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:13:36,155 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:13:36,159 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:13:36,160 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:13:48,231 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:13:48,233 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:13:48,237 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:13:48,239 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:13:57,480 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:13:57,482 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:13:57,485 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:13:57,487 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:14:53,855 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:14:53,856 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:14:53,861 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:14:53,863 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:15:12,737 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:15:12,737 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:15:12,747 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:15:12,749 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:15:26,572 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:15:26,573 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:15:26,577 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:15:26,579 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:15:30,481 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:15:30,483 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:15:30,488 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:15:30,578 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:15:46,865 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:15:46,867 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:15:47,254 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:15:47,256 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:16:04,990 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:16:05,033 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:16:05,036 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:16:05,038 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:16:09,433 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:16:09,434 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:16:09,439 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:16:09,441 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:16:42,797 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:16:42,803 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:16:42,807 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:16:42,810 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:17:24,534 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:17:24,535 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:17:24,539 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:17:24,540 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:18:37,801 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:18:37,803 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:18:37,809 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:18:37,811 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:19:00,697 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:19:00,699 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:19:00,702 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:19:00,704 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:19:24,673 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:19:24,675 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:19:24,678 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:19:24,684 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:19:31,285 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:19:31,286 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:19:31,290 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:19:31,292 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:19:44,008 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:19:44,010 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:19:44,014 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:19:44,015 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:20:40,184 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:20:40,246 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:20:40,249 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:20:40,252 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:20:45,628 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:20:45,630 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:20:45,633 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:20:45,635 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:20:57,842 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:20:57,843 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:20:57,847 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:20:57,851 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:21:08,508 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:21:08,510 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:21:08,514 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:21:08,515 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:21:13,271 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:21:13,272 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:21:13,276 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:21:13,278 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:21:32,324 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:21:32,325 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:21:32,378 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:21:32,380 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:21:43,960 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:21:43,963 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:21:43,969 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:21:43,971 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:21:48,969 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:21:48,970 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:21:48,974 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:21:48,976 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:22:03,047 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:22:03,049 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:22:03,054 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:22:03,055 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:22:14,377 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:22:14,378 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:22:14,382 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:22:14,389 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:24:38,967 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:24:38,968 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:24:38,972 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:24:38,973 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:24:53,111 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:24:53,112 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:24:53,116 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:24:53,117 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:25:06,034 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:25:06,037 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:25:06,040 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:25:06,041 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:27:06,824 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:06,826 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:27:06,830 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:06,832 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:27:20,783 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:20,785 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:27:20,788 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:20,791 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:27:33,008 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:33,010 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:27:33,016 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:33,017 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:27:39,000 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:39,002 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:27:39,006 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:39,007 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:27:41,101 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:41,103 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:27:41,107 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:41,110 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:27:43,626 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:43,628 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:27:43,634 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:43,636 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:27:45,734 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:45,735 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:27:45,750 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:27:45,751 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:28:34,826 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:28:34,829 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:28:34,877 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:28:34,879 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:34:11,173 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:34:11,175 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:34:11,179 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:34:11,180 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:35:02,188 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:02,190 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:35:02,194 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:02,196 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:35:18,453 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:18,455 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:35:18,458 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:18,460 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:35:24,757 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:24,758 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:35:24,762 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:24,764 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:35:32,840 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:32,841 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:35:32,845 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:32,847 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:35:39,745 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:39,747 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:35:39,751 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:39,752 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:35:46,304 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:46,306 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:35:46,309 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:46,311 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:35:53,214 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:53,215 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:35:53,219 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:53,221 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:35:59,650 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:59,652 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:35:59,758 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:35:59,759 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:36:06,072 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:36:06,075 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:36:06,082 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:36:06,086 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:36:12,924 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:36:12,927 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:36:12,931 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:36:12,932 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:36:40,934 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:36:40,937 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:36:40,940 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:36:40,942 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:36:46,697 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:36:46,699 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:36:46,705 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:36:46,707 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:36:54,264 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:36:54,266 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:36:54,270 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:36:54,271 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:37:24,242 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:37:24,244 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:37:24,248 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:37:24,249 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:37:56,933 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:37:56,943 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:37:56,947 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:37:56,949 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:38:01,738 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:38:01,741 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:38:01,745 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:38:01,747 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:45:32,901 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:45:32,902 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\main\resources
+2022-11-18 14:45:32,917 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:45:32,987 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Data\src\test\resources
+2022-11-18 14:45:33,487 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:45:33,489 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:45:33,492 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:45:33,493 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:47:57,590 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:47:57,592 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:47:57,596 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:47:57,598 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:49:40,883 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:49:40,885 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:49:40,890 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:49:40,892 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:54:43,311 [Worker-90: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Domain: edu.uco.budget:Budget_Domain:0.0.1-SNAPSHOT with classifier  to /Budget_Domain/target/classes
+2022-11-18 14:54:43,312 [Worker-90: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Crosscutting: edu.uco.budget:Budget_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Budget_Crosscutting/target/classes
+2022-11-18 14:54:43,312 [Worker-90: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Data: edu.uco.budget:Budget_Data:0.0.1-SNAPSHOT with classifier  to /Budget_Data/target/classes
+2022-11-18 14:54:43,375 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:54:43,377 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Service\src\main\resources
+2022-11-18 14:54:43,383 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:54:43,385 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Service\src\test\resources
+2022-11-18 14:54:46,588 [Worker-92: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Domain: edu.uco.budget:Budget_Domain:0.0.1-SNAPSHOT with classifier  to /Budget_Domain/target/classes
+2022-11-18 14:54:46,589 [Worker-92: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Crosscutting: edu.uco.budget:Budget_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Budget_Crosscutting/target/classes
+2022-11-18 14:54:46,589 [Worker-92: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Service: edu.uco.budget:Budget_Service:0.0.1-SNAPSHOT with classifier  to /Budget_Service/target/classes
+2022-11-18 14:54:46,589 [Worker-92: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Budget_Data: edu.uco.budget:Budget_Data:0.0.1-SNAPSHOT with classifier  to /Budget_Data/target/classes
+2022-11-18 14:54:46,616 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 14:54:46,616 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 14:54:46,618 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-18 14:54:46,627 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-18 14:54:46,633 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-18 14:54:46,634 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-18 14:54:46,634 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_API\src\test\resources
+2022-11-18 14:54:48,945 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:54:48,946 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Service\src\main\resources
+2022-11-18 14:54:48,950 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:54:48,951 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Budget_Service\src\test\resources
+2022-11-18 14:54:49,456 [Worker-94: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Inventario_Crosscutting: edu.uco.inventario:Inventario_Crosscutting:0.0.1-SNAPSHOT with classifier  to /Inventario_Crosscutting/target/classes
+2022-11-18 14:54:49,467 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:54:49,468 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\main\resources
+2022-11-18 14:54:49,473 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:54:49,474 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\test\resources
+2022-11-18 14:54:50,496 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:54:50,497 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:54:50,501 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:54:50,503 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:55:44,109 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:55:44,112 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\main\resources
+2022-11-18 14:55:44,116 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:55:44,117 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\test\resources
+2022-11-18 14:57:17,604 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:57:17,606 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:57:17,610 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:57:17,612 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 14:59:11,100 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:59:11,130 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 14:59:11,134 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 14:59:11,136 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:01:47,290 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:01:47,292 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\main\resources
+2022-11-18 15:01:47,296 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:01:47,297 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\test\resources
+2022-11-18 15:01:48,227 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:01:48,336 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:01:48,344 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:01:48,346 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:03:45,137 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:03:45,139 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:03:45,143 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:03:45,144 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:06:22,073 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:06:22,074 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:06:22,083 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:06:22,084 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:08:05,094 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:08:05,095 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:08:05,099 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:08:05,100 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:08:18,535 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:08:18,538 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:08:18,542 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:08:18,544 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:08:40,146 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:08:40,149 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:08:40,153 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:08:40,154 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:10:07,204 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:10:07,205 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:10:07,213 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:10:07,214 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:16:11,370 [Worker-108: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:16:11,372 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\main\resources
+2022-11-18 15:16:11,377 [Worker-108: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:16:11,378 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\test\resources
+2022-11-18 15:16:12,473 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:16:12,474 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:16:12,478 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:16:12,480 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:17:22,245 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:17:22,246 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:17:22,250 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:17:22,251 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:21:42,408 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:21:42,410 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:21:42,413 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:21:42,415 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:22:03,982 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:22:03,991 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:22:03,995 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:22:03,997 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:22:08,324 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:22:08,326 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:22:08,330 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:22:08,331 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:22:51,846 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:22:51,847 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:22:51,857 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:22:51,959 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:26:39,889 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:26:39,891 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:26:39,895 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:26:39,896 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:28:21,844 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:28:21,846 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:28:21,850 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:28:21,852 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:30:20,258 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:30:20,260 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\main\resources
+2022-11-18 15:30:20,263 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:30:20,264 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\test\resources
+2022-11-18 15:30:20,727 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:30:20,728 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:30:20,732 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:30:20,734 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:36:27,731 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:36:27,732 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Crosscutting\src\main\resources
+2022-11-18 15:36:27,736 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:36:27,738 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Crosscutting\src\test\resources
+2022-11-18 15:36:28,158 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:36:28,160 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\main\resources
+2022-11-18 15:36:28,174 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:36:28,188 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\test\resources
+2022-11-18 15:36:29,551 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:36:29,553 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:36:29,559 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:36:29,562 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:36:54,872 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:36:54,873 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Crosscutting\src\main\resources
+2022-11-18 15:36:54,903 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:36:54,904 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Crosscutting\src\test\resources
+2022-11-18 15:36:55,227 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:36:55,229 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:36:55,232 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:36:55,234 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:37:13,409 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:37:13,410 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Crosscutting\src\main\resources
+2022-11-18 15:37:13,456 [Worker-123: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:37:13,458 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Crosscutting\src\test\resources
+2022-11-18 15:37:13,966 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:37:13,968 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:37:13,972 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:37:13,973 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:42:45,298 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:42:45,300 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Crosscutting\src\main\resources
+2022-11-18 15:42:45,338 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:42:45,340 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Crosscutting\src\test\resources
+2022-11-18 15:43:16,716 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:43:16,717 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:43:16,721 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:43:16,722 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:44:04,165 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:44:04,166 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:44:04,172 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:44:04,173 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:44:22,603 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:44:22,607 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:44:22,611 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:44:22,614 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:48:00,450 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:48:00,453 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\main\resources
+2022-11-18 15:48:00,457 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:48:00,459 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\test\resources
+2022-11-18 15:48:00,850 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:48:00,852 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:48:00,855 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:48:00,874 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:50:21,556 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:50:21,558 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\main\resources
+2022-11-18 15:50:21,562 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:50:21,564 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Domain\src\test\resources
+2022-11-18 15:50:31,288 [Worker-131: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:50:31,292 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:50:31,297 [Worker-131: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:50:31,298 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:51:17,561 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:51:17,562 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:51:17,566 [Worker-130: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:51:17,568 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:52:50,767 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:52:50,768 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:52:50,772 [Worker-128: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:52:50,773 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:57:03,359 [Worker-137: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:57:03,361 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:57:03,367 [Worker-137: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:57:03,368 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:57:37,185 [Worker-138: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:57:37,186 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:57:37,190 [Worker-138: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:57:37,192 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 15:57:41,386 [Worker-138: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:57:41,387 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 15:57:41,391 [Worker-138: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 15:57:41,392 [Worker-138: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:15:32,736 [Worker-139: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:15:32,738 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:15:32,742 [Worker-139: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:15:32,744 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:18:47,672 [Worker-144: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:18:47,673 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:18:47,677 [Worker-144: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:18:47,679 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:18:52,709 [Worker-144: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:18:52,710 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:18:52,714 [Worker-144: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:18:52,716 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:19:13,743 [Worker-140: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:13,745 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:19:13,748 [Worker-140: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:13,750 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:19:27,354 [Worker-140: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:27,355 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:19:27,358 [Worker-140: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:27,360 [Worker-140: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:19:31,677 [Worker-141: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:31,678 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:19:31,682 [Worker-141: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:31,684 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:19:35,546 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:35,549 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:19:35,553 [Worker-145: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:35,555 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:19:38,407 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:38,411 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:19:38,416 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:38,417 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:19:40,310 [Worker-144: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:40,311 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:19:40,318 [Worker-144: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:40,319 [Worker-144: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:19:42,590 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:42,592 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:19:42,642 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:19:42,644 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:21:51,998 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:21:51,999 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:21:52,007 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:21:52,009 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:24:25,111 [Worker-148: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:24:25,113 [Worker-148: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:24:25,116 [Worker-148: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:24:25,118 [Worker-148: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:24:52,086 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:24:52,089 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:24:52,093 [Worker-146: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:24:52,094 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:25:36,140 [Worker-148: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:25:36,141 [Worker-148: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:25:36,145 [Worker-148: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:25:36,146 [Worker-148: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:27:23,614 [Worker-141: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:27:23,615 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:27:23,619 [Worker-141: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:27:23,620 [Worker-141: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:29:11,306 [Worker-147: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:29:11,311 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:29:11,332 [Worker-147: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:29:11,333 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:29:29,088 [Worker-153: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:29:29,090 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:29:29,094 [Worker-153: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:29:29,096 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:29:49,163 [Worker-154: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:29:49,164 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:29:49,168 [Worker-154: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:29:49,169 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:29:55,349 [Worker-151: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:29:55,351 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:29:55,354 [Worker-151: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:29:55,356 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:30:05,881 [Worker-147: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:30:05,882 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:30:05,887 [Worker-147: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:30:05,888 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:30:19,671 [Worker-153: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:30:19,673 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:30:19,676 [Worker-153: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:30:19,678 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:30:25,872 [Worker-154: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:30:25,873 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:30:25,897 [Worker-154: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:30:25,899 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:30:39,524 [Worker-154: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:30:39,525 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:30:39,528 [Worker-154: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:30:39,530 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:32:34,695 [Worker-160: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:32:34,697 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:32:34,700 [Worker-160: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:32:34,702 [Worker-160: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:32:37,963 [Worker-157: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:32:37,965 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:32:37,968 [Worker-157: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:32:37,970 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:33:26,519 [Worker-155: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:33:26,521 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:33:26,524 [Worker-155: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:33:26,525 [Worker-155: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:33:53,999 [Worker-158: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:33:54,000 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:33:54,003 [Worker-158: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:33:54,005 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:34:25,250 [Worker-156: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:34:25,252 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:34:25,255 [Worker-156: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:34:25,257 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:34:48,449 [Worker-153: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:34:48,451 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:34:48,454 [Worker-153: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:34:48,455 [Worker-153: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:35:10,425 [Worker-158: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:35:10,427 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:35:10,430 [Worker-158: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:35:10,432 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources
+2022-11-18 16:36:16,112 [Worker-161: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:36:16,113 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\main\resources
+2022-11-18 16:36:16,117 [Worker-161: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-18 16:36:16,142 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sarr1\OneDrive\Documentos\GitHub\Dinero\Inventario_Service\src\test\resources

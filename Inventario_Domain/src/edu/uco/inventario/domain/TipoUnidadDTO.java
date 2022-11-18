@@ -31,7 +31,7 @@ public class TipoUnidadDTO {
 		setMedida(medida);
 	}
 
-	public final UnidadMedidaDTO getPais() {
+	public final UnidadMedidaDTO getMedidaDTO() {
 		return medida;
 	}
 
@@ -78,4 +78,6 @@ public class TipoUnidadDTO {
 		return UUIDHelper.isDefualtUUID(id);
 		// 50 minute
 	}
+	
+	
 }

@@ -56,5 +56,13 @@ public final class PaisDTO {
 	public final String getIdAsString() {
 		return getUUIDAsString(getId());
 	}
+	
+	public static final PaisDTO create() {
+		return new PaisDTO(UUID.randomUUID(), EMPTY);
+	}
+	
+	public static final PaisDTO create(final UUID id) {
+		return new PaisDTO(getDefaultUUID(id), EMPTY);
+	}
 
 }

@@ -62,4 +62,12 @@ public class UnidadMedidaDTO {
 		return UUIDHelper.isDefualtUUID(id);
 		// 50 minute
 	}
+	
+	public static final UnidadMedidaDTO create() {
+		return new UnidadMedidaDTO(UUID.randomUUID(), EMPTY);
+	}
+	
+	public static final UnidadMedidaDTO create(final UUID id) {
+		return new UnidadMedidaDTO(getDefaultUUID(id), EMPTY);
+	}
 }

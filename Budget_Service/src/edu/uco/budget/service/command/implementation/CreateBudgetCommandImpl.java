@@ -16,7 +16,7 @@ public class CreateBudgetCommandImpl implements CreateBudgetCommand {
 	private final CreateBudgetUseCase useCase = new CreateBudgetUseCaseImpl(factory);
 
 	@Override
-	public final void execute(final BudgetDTO budget) {
+	public final void execute(final BudgetDTO budget) throws Throwable {
 		try {
 			factory.initTransaction();
 			useCase.execute(budget);
@@ -33,10 +33,8 @@ public class CreateBudgetCommandImpl implements CreateBudgetCommand {
 			factory.cancelTransaction();
 			throw ServiceCustomException.createBusinessException(null, exception);
 //throw exception;
-		} catch (Throwable e) {
-			
-			e.printStackTrace();
-		} finally {
+		}
+		finally {
 			factory.closeConnection();
 		}
 

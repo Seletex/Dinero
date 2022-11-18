@@ -95,6 +95,11 @@ public class SalidaDTO {
 		return new SalidaDTO(getDefaultUUID(id), usuario,cantidad,productoDTO,fecha);
 	}
 	
+	public static final SalidaDTO create(final UUID id,final UsuarioDTO usuario, final short cantidad, final ProductoDTO productoDTO,
+			final Object fecha) {
+		return new SalidaDTO(getDefaultUUID(id), usuario,cantidad,productoDTO,(DateTimeAtCreation) fecha);
+	}
+	
 	public final String getIdAsString() {
 		return getUUIDAsString(getId());
 	}
@@ -103,6 +108,9 @@ public class SalidaDTO {
 		return UUIDHelper.isDefualtUUID(id);
 		//50 minute
 	}
+	
+	
+	
 	
 
 }

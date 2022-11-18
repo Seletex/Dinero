@@ -66,5 +66,13 @@ public class ProveedorDTO {
 	public final String getIdAsString() {
 		return getUUIDAsString(getId());
 	}
+	
+	public static final ProveedorDTO create() {
+		return new ProveedorDTO(UUID.randomUUID(), EMPTY, EMPTY);
+	}
+	
+	public static final ProveedorDTO create(final UUID id) {
+		return new ProveedorDTO(getDefaultUUID(id), EMPTY, EMPTY);
+	}
 
 }

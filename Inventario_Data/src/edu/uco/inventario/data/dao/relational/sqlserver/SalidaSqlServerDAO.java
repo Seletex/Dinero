@@ -225,8 +225,8 @@ public class SalidaSqlServerDAO extends DAORelational implements SalidaDAO {
 					(ProveedorDTO) resultSet.getObject("NombreProveedor"),
 					Short.parseShort(resultSet.getString("IdCantidad")),
 					resultSet.getString("IdContenido"),
-					(CuidadoDTO) resultSet.getObject("NombreProveedor"),
-					(TipoUnidadDTO) resultSet.getObject("NombreProveedor"));
+					(CuidadoDTO) resultSet.getObject("NombreCuidado"),
+					(TipoUnidadDTO) resultSet.getObject("NombreTipoUnidad"));
 		} catch (SQLException exception) {
 			throw DataCustomException.createTechnicalException(
 					Messages.BudgetSqlServerDAO.TECHNICAL_PROBLEM_FILL_PERSON_DTO,

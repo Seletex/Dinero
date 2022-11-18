@@ -259,7 +259,7 @@ public class EstanteriaSqlServerDAO extends DAORelational implements EstanteriaD
 
 	@Override
 	public final void update(EstanteriaDTO usuario) {
-		final var sql = "UPDATE ESTANTERIA SET idLetra=?, IdPaisllo, IdNumero, IdDescripcion WHERE id=?";
+		final var sql = "UPDATE ESTANTERIA SET idLetra=?, IdPaisllo=?, IdNumero=?, IdDescripcion=?, idSeccion=?,idProducto=? id WHERE id=?";
 
 		try (final var preparedStatement = getConnection().prepareStatement(sql)) {
 
